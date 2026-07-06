@@ -82,6 +82,17 @@ Haftada bir çalışan zamanlanmış görev: trend-analisti perspektifiyle hafta
 - Tarayıcı erişimi yok (mobil) → manuel veri moduna düşer.
 - Görsel üretim aracı erişilemez → konsept + prompt metni üretir, kullanıcı başka araçta kullanabilir.
 
+## v1.1 Eklemeleri (2026-07-06, kullanıcı onaylı)
+
+### /profil-ekle komutu
+Yeni hesap (kullanıcının veya arkadaşının) için otomatik profil oluşturma: Chrome bağlıysa herkese açık profili inceler (bio, format dağılımı, ton), taslak profili mevcut şablon yapısıyla `profiller/` altına yazar, eksikleri kullanıcıya sorarak tamamlar.
+
+### Vitrin Paneli (`panel/`)
+- Statik, mobil öncelikli tek sayfa uygulama: 4 sekme (Planlar, Raporlar, İçerikler, Profiller), kart listesi + markdown detay görünümü.
+- `panel/build.js` (Node, bağımlılıksız) markdown klasörlerini tarayıp `panel/data.json` üretir; başlık ilk `#` satırından, tarih dosya adındaki `YYYY-AA-GG`den çıkarılır.
+- Vercel yayını: `vercel.json` → buildCommand `node panel/build.js`, outputDirectory `panel`. GitHub bağlantısı kurulunca import edilir.
+- Panel salt-okunur vitrindir; AI üretimi Claude Code tarafında kalır (Faz 3 "tam AI paneli" ileriye bırakıldı — Claude API maliyeti kullanıcıya anlatıldı, kademeli plan onaylandı).
+
 ## Kapsam Dışı (v1)
 
 - Otomatik paylaşım/yayınlama (API onayları gerektirir; içerik hazır teslim edilir, paylaşımı kullanıcı yapar)

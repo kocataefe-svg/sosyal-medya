@@ -19,6 +19,7 @@ profiller/ klasöründeki hesap profillerimi benimle konuşarak doldur
 | `/icerik restoran reels` | İçerik üretimi (story, post, carousel, reels, shorts, video) |
 | `/trend` | Güncel trend araştırması |
 | `/rakip restoran @hesapadi` | Rakip inceleme ve kıyaslama |
+| `/profil-ekle @hesap tip` | Yeni hesap profili oluşturur (hesabı inceleyip taslak çıkarır) |
 
 Komut olmadan da doğal dille her şey istenebilir: "restoran hesabı için bu haftaya 3 reels fikri ver" gibi.
 
@@ -30,6 +31,17 @@ Komut olmadan da doğal dille her şey istenebilir: "restoran hesabı için bu h
 - `planlar/` — haftalık içerik planları
 - `icerikler/` — üretilen caption, görsel ve videolar
 - `docs/superpowers/specs/` — tasarım dokümanı
+
+## Vitrin Paneli
+
+Ekibin ürettiği plan, rapor, içerik ve profilleri telefondan görüntülemek için `panel/` klasöründe statik bir panel var.
+
+```
+node panel/build.js        # markdown dosyalarından data.json üretir
+npx http-server panel      # yerelde açmak için
+```
+
+Depo GitHub'a bağlanınca Vercel'e import edilerek ücretsiz yayınlanır (`vercel.json` hazır) — build sırasında `data.json` otomatik üretilir. Her yeni içerik commit+push edildiğinde panel kendini günceller.
 
 ## Mobil Erişim (iPhone)
 

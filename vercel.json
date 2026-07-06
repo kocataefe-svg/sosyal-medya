@@ -1,0 +1,4 @@
+{
+  "buildCommand": "node panel/build.js",
+  "outputDirectory": "panel"
+}
