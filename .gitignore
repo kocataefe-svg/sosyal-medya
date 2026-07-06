@@ -1,0 +1,8 @@
+# Geçici dosyalar
+*.tmp
+~$*
+Thumbs.db
+desktop.ini
+
+# Büyük medya ham dosyaları (gerekirse aç)
+# icerikler/**/*.mp4
