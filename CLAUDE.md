@@ -33,8 +33,17 @@ Basit tek-platform işlerde ilgili uzmanın perspektifiyle doğrudan çalış; a
 
 ## Veri Erişimi
 
+İki ayrı veri katmanı var, kaynakları farklı — karıştırma:
+
+**1) İçerik/post verisi (caption, format, hashtag, paylaşım sıklığı, görünen beğeni/yorum)** — herkese açık, profil linkinden erişilir.
 - **PC'de:** Chrome eklentisi bağlıysa Instagram/YouTube/Maps sayfalarına doğrudan bakılabilir (kullanıcının açık oturumu üzerinden). Sayfa verisi okunur; hesapta işlem (paylaşım, silme, yorum) YAPILMAZ — içerik hazır teslim edilir, paylaşımı kullanıcı yapar.
-- **Mobilde / tarayıcı yokken:** Kullanıcıdan ekran görüntüsü veya istatistik iste; manuel veriyle aynı kalitede analiz yap.
+- **Mobilde / tarayıcı yokken:** Önce link/kullanıcı adı üzerinden web erişimi dene (web search/fetch); yetmezse kullanıcıdan profilin ekran görüntüsünü iste.
+
+**2) Instagram Insights (erişim/reach, kayıt, profil ziyareti, takipçi demografisi, büyüme grafiği)** — bu veri hiçbir yerden dışarıdan görülemez, SADECE hesap sahibine Instagram uygulamasında gösterilir. Hiçbir tarayıcı/link/otomatik erişim bunu çekemez, istisnasız. Bu veri gerektiğinde kullanıcıdan ekran görüntüsü isterken MUTLAKA şu adımları ve hangi ekranları göndereceğini net söyle (belirsiz "ekran görüntüsü at" deme):
+  - Instagram profilinde sağ üstteki ☰ menü → **Insights / İstatistikler** (kişisel hesapta görünmezse önce ücretsiz "Professional Account"a geçmesi gerekir, ayarlardan 1 dakika).
+  - İstenecek ekranlar: (a) genel özet (Overview: erişim, etkileşim, takipçi), (b) "Paylaştığın içerikler" — post bazlı erişim/etkileşim listesi, (c) "Takipçi" grafiği — büyüme + demografi, (d) işletme hesabında ayrıca "Profil etkinliği" — profil ziyaretleri, yön tarifi/telefon tıklamaları.
+  - Google Business Profile için de benzer mantık geçerli: yorum/puan görünür veridir (Chrome ile bakılabilir), ama "arama görünürlüğü" istatistikleri sadece işletme sahibine gösterilir — o da ekran görüntüsü ister.
+  - Meta/Instagram Graph API bağlanırsa bu adım otomatikleşebilir ama şu an kapsam dışı (kullanıcı tercihi) — API kurulmadıkça ekran görüntüsü tek yol.
 - **Güncel bilgi:** Trend, algoritma değişikliği, format haberleri için her zaman web araması yap — ezberden güncel bilgi verme.
 - **Görsel/video üretimi:** Bağlı MCP araçları (Higgsfield vb.) kullanılır. Araç yoksa detaylı konsept + üretim promptu teslim et.
 
