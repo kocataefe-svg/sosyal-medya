@@ -9,3 +9,6 @@ desktop.ini
 
 # Panel: build.js tarafından üretilir, Vercel build sırasında yeniden oluşturur
 panel/data.json
+
+# Subagent-driven-development ilerleme defteri (gecici, sadece bu oturuma ait)
+.superpowers/
