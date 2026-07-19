@@ -56,3 +56,4 @@ Geçmiş rapor ve planlar yeni işlerde bağlam olarak kullanılır (tekrarı ö
 - `/trend` — güncel trend araştırması
 - `/rakip [hesap-adı]` — rakip hesap inceleme
 - `/profil-ekle [@hesap] [tip]` — yeni hesap profili oluşturur
+- `/geri-bildirim [hesap] [ne oldu]` — paylaşılan içeriğin sonucunu Performans Notları'na işler

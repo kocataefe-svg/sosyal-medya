@@ -5,6 +5,7 @@ let veri = null;
 let aktifKategori = "planlar";
 
 const listeEl = document.getElementById("liste");
+const buHaftaEl = document.getElementById("bu-hafta");
 const sekmelerEl = document.getElementById("sekmeler");
 const detayEl = document.getElementById("detay");
 const detayIcerikEl = document.getElementById("detay-icerik");
@@ -73,6 +74,25 @@ function listeyiCiz() {
   }
 }
 
+function buHaftayiCiz() {
+  if (!veri.buHafta || veri.buHafta.length === 0) {
+    buHaftaEl.className = "bu-hafta gizli";
+    return;
+  }
+  buHaftaEl.className = "bu-hafta";
+  const hesapAdi = (s) => s.charAt(0).toUpperCase() + s.slice(1).replace(/-/g, " ");
+  buHaftaEl.innerHTML = `<h2 class="bu-hafta-baslik">🔥 Bu Hafta</h2>` +
+    veri.buHafta.map((d) => `
+      <div class="kart kart-vurgu" data-hesap="${d.hesap}">
+        <h2>${hesapAdi(d.hesap)}</h2>
+        <div class="alt"><span class="tarih-rozet">${tarihFormatla(d.tarih)}</span></div>
+        <p class="ozet">${ozetCikar(d.icerik)}</p>
+      </div>`).join("");
+  buHaftaEl.querySelectorAll(".kart").forEach((kart, i) => {
+    kart.addEventListener("click", () => detayAc(veri.buHafta[i]));
+  });
+}
+
 function detayAc(d) {
   detayTarihEl.textContent = tarihFormatla(d.tarih);
   if (window.marked) {
@@ -100,6 +120,7 @@ fetch("data.json")
     guncellemeEl.textContent = "Son güncelleme: " + t.toLocaleDateString("tr-TR", {
       day: "numeric", month: "long", hour: "2-digit", minute: "2-digit",
     });
+    buHaftayiCiz();
     sekmeleriCiz();
     listeyiCiz();
   })
