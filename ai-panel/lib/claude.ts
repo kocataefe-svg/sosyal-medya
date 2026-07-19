@@ -21,7 +21,7 @@ const ozelAraclar = [
     description:
       "Depodaki bir dosyanın içeriğini okur. Yol depo köküne göre verilir, örn. 'profiller/restoran-instagram.md'.",
     input_schema: {
-      type: "object",
+      type: "object" as const,
       properties: {
         path: { type: "string", description: "Depo köküne göre dosya yolu" },
       },
@@ -33,7 +33,7 @@ const ozelAraclar = [
     description:
       "Depoda yeni bir dosya oluşturur ya da var olanı günceller ve commit eder. Sadece planlar/, raporlar/, icerikler/, profiller/ altına yaz.",
     input_schema: {
-      type: "object",
+      type: "object" as const,
       properties: {
         path: { type: "string", description: "Depo köküne göre dosya yolu" },
         content: { type: "string", description: "Dosyanın tam içeriği (markdown)" },
@@ -71,7 +71,14 @@ export async function sohbetIstegiGonder(params: {
       model: modelAdi,
       max_tokens: 4096,
       system: params.sistemTalimati,
-      tools: [...ozelAraclar, { type: "web_search_20260209", name: "web_search" }],
+      tools: [
+        ...ozelAraclar,
+        // Installed @anthropic-ai/sdk (0.32.x) predates typed server-tool
+        // variants — its Tool interface has no `type` field at all. The API
+        // accepts this shape at the wire level regardless; only the old
+        // SDK's TS types don't model it yet.
+        { type: "web_search_20260209", name: "web_search" } as unknown as Anthropic.Tool,
+      ],
       messages: mesajGecmisi,
     });
 
