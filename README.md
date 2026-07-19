@@ -19,7 +19,7 @@ profiller/ klasöründeki hesap profillerimi benimle konuşarak doldur
 | `/icerik restoran reels` | İçerik üretimi (story, post, carousel, reels, shorts, video) |
 | `/trend` | Güncel trend araştırması |
 | `/rakip restoran @hesapadi` | Rakip inceleme ve kıyaslama |
-| `/profil-ekle @hesap tip` | Yeni hesap profili oluşturur (hesabı inceleyip taslak çıkarır) |
+| `/profil-ekle @hesap` | Yeni hesap profili oluşturur — önce hesabı ekler, sonra türünü (işletme/şahsi/vb.) sorar |
 
 Komut olmadan da doğal dille her şey istenebilir: "restoran hesabı için bu haftaya 3 reels fikri ver" gibi.
 
