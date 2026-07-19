@@ -95,6 +95,10 @@ Model: Haiku 4.5. Tahmini aylık maliyet (3-5 kişilik ekip): hafif kullanım $2
 3. Kredi kartı eklemek + harcama limiti belirlemek
 4. Vercel KV kurulumu için Vercel hesabından onay vermek (Vercel dashboard üzerinden birkaç tıklama)
 
+## Hibrit Kullanım (AI Paneli ↔ Claude Pro/Code)
+
+AI paneli ile mevcut Claude Code sistemi (PC'de veya Pro abonelikli mobilde) **aynı GitHub deposunu** paylaşır — rakip değil, aynı verinin iki farklı erişim kapısıdır. Kullanıcı istediği zaman ikisi arasında geçiş yapabilir: AI panelinde üretilen içerik commit edildiği an Claude Code tarafında da görünür, tam tersi de geçerli. Chrome ile hesaba bakma veya görsel üretimi gerektiğinde kullanıcı Pro hesabıyla Claude Code'u açar, iş bitince AI paneline geri döner — veri kaybı veya çakışma olmaz.
+
 ## Kapsam Dışı Notlar
 
 - Kayıt/self-signup yok — hesaplar kullanıcı tarafından/Claude yardımıyla elle tanımlanır.
