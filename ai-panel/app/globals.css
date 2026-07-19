@@ -1,0 +1,38 @@
+:root {
+  --zemin: #16121f;
+  --kart: #211b2e;
+  --cizgi: #352c47;
+  --metin: #efeaf7;
+  --soluk: #a396bd;
+  --vurgu: #ff7a59;
+  --vurgu2: #b98aff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--zemin);
+  color: var(--metin);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+a {
+  color: var(--vurgu2);
+}
