@@ -6,3 +6,6 @@ desktop.ini
 
 # Büyük medya ham dosyaları (gerekirse aç)
 # icerikler/**/*.mp4
+
+# Panel: build.js tarafından üretilir, Vercel build sırasında yeniden oluşturur
+panel/data.json

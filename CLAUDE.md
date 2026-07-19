@@ -55,3 +55,4 @@ Geçmiş rapor ve planlar yeni işlerde bağlam olarak kullanılır (tekrarı ö
 - `/icerik [hesap] [format]` — içerik üretimi
 - `/trend` — güncel trend araştırması
 - `/rakip [hesap-adı]` — rakip hesap inceleme
+- `/profil-ekle [@hesap] [tip]` — yeni hesap profili oluşturur
