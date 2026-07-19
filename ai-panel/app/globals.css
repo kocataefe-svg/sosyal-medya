@@ -36,3 +36,61 @@ textarea {
 a {
   color: var(--vurgu2);
 }
+
+.giris-sayfasi {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.giris-formu {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.giris-formu h1 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.giris-formu label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--soluk);
+}
+
+.giris-formu input {
+  background: var(--kart);
+  border: 1px solid var(--cizgi);
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: var(--metin);
+}
+
+.giris-formu button {
+  background: linear-gradient(135deg, var(--vurgu), var(--vurgu2));
+  border: none;
+  border-radius: 10px;
+  padding: 13px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.giris-formu button:disabled {
+  opacity: 0.6;
+}
+
+.hata-mesaji {
+  color: var(--vurgu);
+  font-size: 13px;
+}
