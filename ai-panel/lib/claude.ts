@@ -77,7 +77,11 @@ export async function sohbetIstegiGonder(params: {
         // variants — its Tool interface has no `type` field at all. The API
         // accepts this shape at the wire level regardless; only the old
         // SDK's TS types don't model it yet.
-        { type: "web_search_20260209", name: "web_search" } as unknown as Anthropic.Tool,
+        {
+          type: "web_search_20260209",
+          name: "web_search",
+          allowed_callers: ["direct"],
+        } as unknown as Anthropic.Tool,
       ],
       messages: mesajGecmisi,
     });
