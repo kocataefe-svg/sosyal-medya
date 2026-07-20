@@ -1,9 +1,10 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
-const { rpushMock, lrangeMock, connectMock } = vi.hoisted(() => ({
+const { rpushMock, lrangeMock, connectMock, onMock } = vi.hoisted(() => ({
   rpushMock: vi.fn(),
   lrangeMock: vi.fn(),
   connectMock: vi.fn(),
+  onMock: vi.fn(),
 }));
 
 vi.mock("redis", () => ({
@@ -11,6 +12,7 @@ vi.mock("redis", () => ({
     connect: connectMock,
     rPush: rpushMock,
     lRange: lrangeMock,
+    on: onMock,
   })),
 }));
 
@@ -23,6 +25,7 @@ describe("kullanimKaydi", () => {
     lrangeMock.mockReset();
     connectMock.mockReset();
     connectMock.mockResolvedValue(undefined);
+    onMock.mockReset();
   });
 
   it("kaydi kv listesine ekler", async () => {
@@ -88,5 +91,34 @@ describe("kullanimKaydi", () => {
     lrangeMock.mockResolvedValue([]);
     const ozet = await kullanimOzetiGetir();
     expect(ozet).toEqual([]);
+  });
+
+  it("baglanti hatasindan sonra bir sonraki cagri tekrar baglanmayi dener", async () => {
+    // Bu test, singleton'un taze bir kopyasini almak icin modulu izole ediyor
+    // (ust seviyedeki import zaten cozulmus bir baglantiyla calisiyor).
+    vi.resetModules();
+    connectMock.mockReset();
+    connectMock.mockRejectedValueOnce(new Error("baglanti koptu"));
+    connectMock.mockResolvedValueOnce(undefined);
+    rpushMock.mockReset();
+    rpushMock.mockResolvedValue(1);
+
+    const { kullanimKaydet: tazeKaydet } = await import("./kullanimKaydi");
+
+    const kayit = {
+      kullaniciAdi: "ata",
+      mod: "analiz",
+      model: "claude-haiku-4-5",
+      girdiToken: 1,
+      ciktiToken: 1,
+      maliyetUsd: 0.0001,
+      zaman: "2026-07-19T10:00:00.000Z",
+    };
+
+    await expect(tazeKaydet(kayit)).rejects.toThrow("baglanti koptu");
+    await tazeKaydet(kayit);
+
+    expect(connectMock).toHaveBeenCalledTimes(2);
+    expect(rpushMock).toHaveBeenCalledTimes(1);
   });
 });

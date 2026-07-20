@@ -20,7 +20,16 @@ function istemciyiGetir(): Promise<RedisClientType> {
     const url = process.env.REDIS_URL;
     if (!url) throw new Error("REDIS_URL ortam değişkeni tanımlı değil");
     istemci = createClient({ url }) as RedisClientType;
-    baglantiPromise = istemci.connect().then(() => istemci as RedisClientType);
+    istemci.on("error", (err) => {
+      console.error("Redis bağlantı hatası:", err);
+    });
+    baglantiPromise = istemci.connect().then(
+      () => istemci as RedisClientType,
+      (hata) => {
+        baglantiPromise = null;
+        throw hata;
+      }
+    );
   }
   return baglantiPromise;
 }
