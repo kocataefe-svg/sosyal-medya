@@ -1,3 +1,9 @@
+import SohbetEkrani from "../components/SohbetEkrani";
+
 export default function AnaSayfa() {
-  return <main style={{ padding: 24 }}>AI Paneli hazırlanıyor...</main>;
+  return (
+    <main className="ana-sayfa">
+      <SohbetEkrani />
+    </main>
+  );
 }
