@@ -1,20 +1,28 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
-const { rpushMock, lrangeMock } = vi.hoisted(() => ({
+const { rpushMock, lrangeMock, connectMock } = vi.hoisted(() => ({
   rpushMock: vi.fn(),
   lrangeMock: vi.fn(),
+  connectMock: vi.fn(),
 }));
 
-vi.mock("@vercel/kv", () => ({
-  kv: { rpush: rpushMock, lrange: lrangeMock },
+vi.mock("redis", () => ({
+  createClient: vi.fn(() => ({
+    connect: connectMock,
+    rPush: rpushMock,
+    lRange: lrangeMock,
+  })),
 }));
 
 import { kullanimKaydet, kullanimOzetiGetir } from "./kullanimKaydi";
 
 describe("kullanimKaydi", () => {
   beforeEach(() => {
+    process.env.REDIS_URL = "redis://localhost:6379";
     rpushMock.mockReset();
     lrangeMock.mockReset();
+    connectMock.mockReset();
+    connectMock.mockResolvedValue(undefined);
   });
 
   it("kaydi kv listesine ekler", async () => {

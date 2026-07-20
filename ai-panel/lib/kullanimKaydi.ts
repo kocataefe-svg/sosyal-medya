@@ -1,4 +1,4 @@
-import { kv } from "@vercel/kv";
+import { createClient, type RedisClientType } from "redis";
 
 export interface KullanimKaydi {
   kullaniciAdi: string;
@@ -12,8 +12,22 @@ export interface KullanimKaydi {
 
 const KV_ANAHTARI = "ai-panel:kullanim-kayitlari";
 
+let istemci: RedisClientType | null = null;
+let baglantiPromise: Promise<RedisClientType> | null = null;
+
+function istemciyiGetir(): Promise<RedisClientType> {
+  if (!baglantiPromise) {
+    const url = process.env.REDIS_URL;
+    if (!url) throw new Error("REDIS_URL ortam değişkeni tanımlı değil");
+    istemci = createClient({ url }) as RedisClientType;
+    baglantiPromise = istemci.connect().then(() => istemci as RedisClientType);
+  }
+  return baglantiPromise;
+}
+
 export async function kullanimKaydet(kayit: KullanimKaydi): Promise<void> {
-  await kv.rpush(KV_ANAHTARI, JSON.stringify(kayit));
+  const client = await istemciyiGetir();
+  await client.rPush(KV_ANAHTARI, JSON.stringify(kayit));
 }
 
 export interface KullaniciOzeti {
@@ -23,7 +37,8 @@ export interface KullaniciOzeti {
 }
 
 export async function kullanimOzetiGetir(): Promise<KullaniciOzeti[]> {
-  const hamKayitlar = (await kv.lrange<string>(KV_ANAHTARI, 0, -1)) ?? [];
+  const client = await istemciyiGetir();
+  const hamKayitlar = (await client.lRange(KV_ANAHTARI, 0, -1)) ?? [];
   const kayitlar: KullanimKaydi[] = hamKayitlar.map((satir) =>
     typeof satir === "string" ? JSON.parse(satir) : (satir as unknown as KullanimKaydi)
   );
