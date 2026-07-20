@@ -120,6 +120,7 @@ a {
 
 .hesap-mod-secici select {
   flex: 1;
+  min-width: 0;
   background: var(--kart);
   border: 1px solid var(--cizgi);
   border-radius: 10px;
