@@ -204,3 +204,40 @@ a {
 .mesaj-formu button:disabled {
   opacity: 0.5;
 }
+
+/* --- Kullanım özeti sayfası --- */
+
+.kullanim-sayfasi {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px 16px calc(20px + env(safe-area-inset-bottom));
+}
+
+.kullanim-sayfasi h1 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.kullanim-sayfasi p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.kullanim-sayfasi table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.kullanim-sayfasi th,
+.kullanim-sayfasi td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--cizgi);
+}
+
+.kullanim-sayfasi th {
+  color: var(--soluk);
+  font-weight: 600;
+}
