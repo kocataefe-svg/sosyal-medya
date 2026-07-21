@@ -3,6 +3,7 @@ import { oturumTokeniDogrula } from "../../../lib/auth";
 import { sistemTalimatiOlustur } from "../../../lib/sistemTalimati";
 import { sohbetIstegiGonder } from "../../../lib/claude";
 import { kullanimKaydet } from "../../../lib/kullanimKaydi";
+import { gorselListesiGecerliMi } from "../../../lib/gorselDogrula";
 import type { ModAdi } from "../../../lib/modTanimlari";
 import type { SohbetMesaji } from "../../../lib/types";
 
@@ -22,6 +23,15 @@ export async function POST(istek: NextRequest) {
   const govde = (await istek.json().catch(() => null)) as SohbetIstegi | null;
   if (!govde?.mod || !Array.isArray(govde.mesajlar)) {
     return NextResponse.json({ hata: "Geçersiz istek." }, { status: 400 });
+  }
+
+  for (const mesaj of govde.mesajlar) {
+    if (mesaj.gorseller?.length) {
+      const dogrulama = gorselListesiGecerliMi(mesaj.gorseller);
+      if (!dogrulama.gecerli) {
+        return NextResponse.json({ hata: dogrulama.hata }, { status: 400 });
+      }
+    }
   }
 
   try {
