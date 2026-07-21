@@ -57,10 +57,17 @@ export async function sohbetIstegiGonder(params: {
 }): Promise<SohbetSonucu> {
   const modelAdi = process.env.CLAUDE_MODEL || "claude-haiku-4-5";
   const client = new Anthropic();
-  const mesajGecmisi: Anthropic.MessageParam[] = params.mesajlar.map((m) => ({
-    role: m.rol,
-    content: m.icerik,
-  }));
+  const mesajGecmisi: Anthropic.MessageParam[] = params.mesajlar.map((m) => {
+    if (!m.gorseller || m.gorseller.length === 0) {
+      return { role: m.rol, content: m.icerik };
+    }
+    const gorselBloklari: Anthropic.ImageBlockParam[] = m.gorseller.map((g) => ({
+      type: "image",
+      source: { type: "base64", media_type: g.mediaType, data: g.data },
+    }));
+    const metinBlogu: Anthropic.TextBlockParam = { type: "text", text: m.icerik };
+    return { role: m.rol, content: [...gorselBloklari, metinBlogu] };
+  });
 
   let toplamGirdiToken = 0;
   let toplamCiktiToken = 0;

@@ -138,4 +138,49 @@ describe("claude", () => {
     expect(createMock).toHaveBeenCalledTimes(8);
     expect(sonuc.girdiTokenSayisi).toBe(800);
   });
+
+  it("gorsel iceren mesaji cok blokla api'ye gonderir", async () => {
+    createMock.mockResolvedValue({
+      stop_reason: "end_turn",
+      content: [{ type: "text", text: "Ekran goruntusunu inceledim." }],
+      usage: { input_tokens: 200, output_tokens: 30 },
+    });
+
+    const sonuc = await sohbetIstegiGonder({
+      sistemTalimati: "Sen bir asistansin.",
+      mesajlar: [
+        {
+          rol: "user",
+          icerik: "bu ekran goruntusunu analiz et",
+          gorseller: [{ mediaType: "image/jpeg", data: "aGVsbG8=" }],
+        },
+      ],
+    });
+
+    expect(sonuc.cevap).toBe("Ekran goruntusunu inceledim.");
+    const gonderilenIstek = createMock.mock.calls[0][0];
+    expect(gonderilenIstek.messages[0]).toEqual({
+      role: "user",
+      content: [
+        { type: "image", source: { type: "base64", media_type: "image/jpeg", data: "aGVsbG8=" } },
+        { type: "text", text: "bu ekran goruntusunu analiz et" },
+      ],
+    });
+  });
+
+  it("gorsel olmayan mesaji hala duz metin olarak gonderir", async () => {
+    createMock.mockResolvedValue({
+      stop_reason: "end_turn",
+      content: [{ type: "text", text: "ok" }],
+      usage: { input_tokens: 10, output_tokens: 5 },
+    });
+
+    await sohbetIstegiGonder({
+      sistemTalimati: "Sen bir asistansin.",
+      mesajlar: [{ rol: "user", icerik: "selam" }],
+    });
+
+    const gonderilenIstek = createMock.mock.calls[0][0];
+    expect(gonderilenIstek.messages[0]).toEqual({ role: "user", content: "selam" });
+  });
 });
