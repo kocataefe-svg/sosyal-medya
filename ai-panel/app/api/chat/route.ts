@@ -31,15 +31,21 @@ export async function POST(istek: NextRequest) {
       mesajlar: govde.mesajlar,
     });
 
-    await kullanimKaydet({
-      kullaniciAdi: oturum.kullaniciAdi,
-      mod: govde.mod,
-      model: process.env.CLAUDE_MODEL || "claude-haiku-4-5",
-      girdiToken: sonuc.girdiTokenSayisi,
-      ciktiToken: sonuc.ciktiTokenSayisi,
-      maliyetUsd: sonuc.tahminiMaliyetUsd,
-      zaman: new Date().toISOString(),
-    });
+    // Kullanım kaydı yazılamazsa (örn. Redis henüz kurulmadıysa) sohbet
+    // cevabını yine de döndür — bu ikincil bir özellik, sohbeti kesmemeli.
+    try {
+      await kullanimKaydet({
+        kullaniciAdi: oturum.kullaniciAdi,
+        mod: govde.mod,
+        model: process.env.CLAUDE_MODEL || "claude-haiku-4-5",
+        girdiToken: sonuc.girdiTokenSayisi,
+        ciktiToken: sonuc.ciktiTokenSayisi,
+        maliyetUsd: sonuc.tahminiMaliyetUsd,
+        zaman: new Date().toISOString(),
+      });
+    } catch (kayitHatasi) {
+      console.error("Kullanım kaydı yazılamadı:", kayitHatasi);
+    }
 
     return NextResponse.json({ cevap: sonuc.cevap });
   } catch (hata) {
