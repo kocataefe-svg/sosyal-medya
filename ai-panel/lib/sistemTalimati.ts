@@ -1,5 +1,6 @@
 import { dosyaOku } from "./github";
-import { modBul, hesabiBul, type ModAdi } from "./modTanimlari";
+import { modBul, type ModAdi } from "./modTanimlari";
+import { hesaplariGetir } from "./hesaplariGetir";
 
 export async function sistemTalimatiOlustur(ad: ModAdi, hesapId: string | null): Promise<string> {
   const mod = modBul(ad);
@@ -17,7 +18,8 @@ export async function sistemTalimatiOlustur(ad: ModAdi, hesapId: string | null):
   if (komutIcerik) parcalar.push(komutIcerik);
 
   if (hesapId) {
-    const hesap = hesabiBul(hesapId);
+    const hesaplar = await hesaplariGetir();
+    const hesap = hesaplar.find((h) => h.id === hesapId);
     if (hesap) {
       const profilIcerik = await dosyaOku(hesap.profilDosyasi);
       if (profilIcerik) {
