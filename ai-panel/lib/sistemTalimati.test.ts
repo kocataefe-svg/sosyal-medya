@@ -69,4 +69,20 @@ describe("sistemTalimati", () => {
 
     expect(talimat).not.toContain("Aktif Hesap Profili");
   });
+
+  it("hesaplariGetir sonucundaki (statik listede olmayan) bir hesabi bulur", async () => {
+    hesaplariGetirMock.mockResolvedValue([
+      { id: "yeni-hesap-restoran", ad: "Yeni Hesap", profilDosyasi: "profiller/yeni-hesap-restoran.md" },
+    ]);
+    dosyaOkuMock.mockImplementation(async (yol: string) => {
+      if (yol === "CLAUDE.md") return "KOK TALIMAT";
+      if (yol === "profiller/yeni-hesap-restoran.md") return "YENI HESAP PROFILI";
+      return null;
+    });
+
+    const talimat = await sistemTalimatiOlustur("analiz", "yeni-hesap-restoran");
+
+    expect(talimat).toContain("YENI HESAP PROFILI");
+    expect(talimat).toContain("Aktif Hesap Profili (Yeni Hesap)");
+  });
 });
