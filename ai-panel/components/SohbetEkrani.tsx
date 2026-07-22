@@ -4,6 +4,7 @@ import { useState } from "react";
 import HesapModSecici from "./HesapModSecici";
 import MesajBalonu from "./MesajBalonu";
 import { gorselListesiGecerliMi, MAKSIMUM_GORSEL_SAYISI } from "../lib/gorselDogrula";
+import { istekIcinMesajlariHazirla } from "../lib/istekIcinMesajlariHazirla";
 import type { SohbetMesaji, SohbetGorseli } from "../lib/types";
 
 const MAKSIMUM_UZUN_KENAR = 1568;
@@ -103,7 +104,11 @@ export default function SohbetEkrani() {
       const yanit = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ mod: seciliMod, hesap: seciliHesap, mesajlar: yeniMesajlar }),
+        body: JSON.stringify({
+          mod: seciliMod,
+          hesap: seciliHesap,
+          mesajlar: istekIcinMesajlariHazirla(yeniMesajlar),
+        }),
       });
       const govde = await yanit.json();
       if (!yanit.ok) {
