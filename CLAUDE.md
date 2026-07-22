@@ -57,6 +57,16 @@ Basit tek-platform işlerde ilgili uzmanın perspektifiyle doğrudan çalış; a
 
 Geçmiş rapor ve planlar yeni işlerde bağlam olarak kullanılır (tekrarı önle, süreklilik sağla).
 
+### Otomatik Commit + Push
+
+Aşağıdaki dosyalar oluşturulduğunda veya güncellendiğinde **onay beklenmeden otomatik commit + push yapılır** (mobil ai-panel aynı GitHub deposunu okuduğu için bu senkronizasyonu sağlar):
+
+- `profiller/` — yeni hesap eklendiğinde veya profil güncellendiğinde
+- `raporlar/` — yeni analiz/trend/rakip raporu oluşturulduğunda
+- `planlar/` — yeni haftalık plan oluşturulduğunda veya güncellendiğinde
+
+Her değişiklik kendi anlamlı commit mesajıyla (Türkçe, kısa) push edilir. `icerikler/` içeriği (caption, görsel, video) bu otomatik kurala dahil değil — kullanıcı paylaşımı kendi yapacağı için bu dosyalar için commit/push öncesi onay iste.
+
 ## Komutlar
 
 - `/analiz [hesap]` — hesap analizi
