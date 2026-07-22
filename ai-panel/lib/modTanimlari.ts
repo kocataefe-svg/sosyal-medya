@@ -70,14 +70,3 @@ export interface HesapTanimi {
   ad: string;
   profilDosyasi: string;
 }
-
-export const HESAPLAR: HesapTanimi[] = [
-  { id: "sahsi", ad: "Şahsi Instagram", profilDosyasi: "profiller/sahsi-instagram.md" },
-  { id: "restoran", ad: "Restoran Instagram", profilDosyasi: "profiller/restoran-instagram.md" },
-  { id: "youtube", ad: "YouTube Kanalı", profilDosyasi: "profiller/youtube-kanali.md" },
-  { id: "maps", ad: "Google Maps", profilDosyasi: "profiller/google-maps.md" },
-];
-
-export function hesabiBul(id: string): HesapTanimi | null {
-  return HESAPLAR.find((h) => h.id === id) ?? null;
-}

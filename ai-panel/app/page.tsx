@@ -1,9 +1,12 @@
 import SohbetEkrani from "../components/SohbetEkrani";
+import { hesaplariGetir } from "../lib/hesaplariGetir";
 
-export default function AnaSayfa() {
+export default async function AnaSayfa() {
+  const hesaplar = await hesaplariGetir();
+
   return (
     <main className="ana-sayfa">
-      <SohbetEkrani />
+      <SohbetEkrani hesaplar={hesaplar} />
     </main>
   );
 }

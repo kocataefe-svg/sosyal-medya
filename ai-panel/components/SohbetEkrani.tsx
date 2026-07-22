@@ -6,6 +6,7 @@ import MesajBalonu from "./MesajBalonu";
 import { gorselListesiGecerliMi, MAKSIMUM_GORSEL_SAYISI } from "../lib/gorselDogrula";
 import { istekIcinMesajlariHazirla } from "../lib/istekIcinMesajlariHazirla";
 import type { SohbetMesaji, SohbetGorseli } from "../lib/types";
+import type { HesapTanimi } from "../lib/modTanimlari";
 
 const MAKSIMUM_UZUN_KENAR = 1568;
 const JPEG_KALITE = 0.8;
@@ -48,8 +49,12 @@ async function gorseliKucult(dosya: File): Promise<SohbetGorseli> {
   return { mediaType: "image/jpeg", data: base64Veri };
 }
 
-export default function SohbetEkrani() {
-  const [seciliHesap, setSeciliHesap] = useState("restoran");
+interface Props {
+  hesaplar: HesapTanimi[];
+}
+
+export default function SohbetEkrani({ hesaplar }: Props) {
+  const [seciliHesap, setSeciliHesap] = useState(hesaplar[0]?.id ?? "");
   const [seciliMod, setSeciliMod] = useState("analiz");
   const [mesajlar, setMesajlar] = useState<SohbetMesaji[]>([]);
   const [girdi, setGirdi] = useState("");
@@ -126,6 +131,7 @@ export default function SohbetEkrani() {
   return (
     <div className="sohbet-ekrani">
       <HesapModSecici
+        hesaplar={hesaplar}
         seciliMod={seciliMod}
         seciliHesap={seciliHesap}
         modDegisti={setSeciliMod}

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { modBul, hesabiBul, MODLAR, HESAPLAR } from "./modTanimlari";
+import { modBul, MODLAR } from "./modTanimlari";
 
 describe("modTanimlari", () => {
   it("bilinen modu bulur", () => {
@@ -14,20 +14,6 @@ describe("modTanimlari", () => {
   it("tum modlarin komut dosyasi tanimli", () => {
     for (const mod of MODLAR) {
       expect(mod.komutDosyasi.length).toBeGreaterThan(0);
-    }
-  });
-
-  it("bilinen hesabi bulur", () => {
-    expect(hesabiBul("restoran")?.profilDosyasi).toBe("profiller/restoran-instagram.md");
-  });
-
-  it("bilinmeyen hesap icin null doner", () => {
-    expect(hesabiBul("yok")).toBeNull();
-  });
-
-  it("tum hesaplarin profil dosyasi tanimli", () => {
-    for (const hesap of HESAPLAR) {
-      expect(hesap.profilDosyasi.length).toBeGreaterThan(0);
     }
   });
 });

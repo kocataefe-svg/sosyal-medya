@@ -1,8 +1,10 @@
 "use client";
 
-import { MODLAR, HESAPLAR } from "../lib/modTanimlari";
+import { MODLAR } from "../lib/modTanimlari";
+import type { HesapTanimi } from "../lib/modTanimlari";
 
 interface Props {
+  hesaplar: HesapTanimi[];
   seciliMod: string;
   seciliHesap: string;
   modDegisti: (mod: string) => void;
@@ -10,6 +12,7 @@ interface Props {
 }
 
 export default function HesapModSecici({
+  hesaplar,
   seciliMod,
   seciliHesap,
   modDegisti,
@@ -18,7 +21,7 @@ export default function HesapModSecici({
   return (
     <div className="hesap-mod-secici">
       <select value={seciliHesap} onChange={(e) => hesapDegisti(e.target.value)}>
-        {HESAPLAR.map((hesap) => (
+        {hesaplar.map((hesap) => (
           <option key={hesap.id} value={hesap.id}>
             {hesap.ad}
           </option>
