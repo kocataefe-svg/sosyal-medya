@@ -168,6 +168,33 @@ describe("claude", () => {
     });
   });
 
+  it("metinsiz gorsel mesajinda bos metin blogu eklemez", async () => {
+    createMock.mockResolvedValue({
+      stop_reason: "end_turn",
+      content: [{ type: "text", text: "Gorseli inceledim." }],
+      usage: { input_tokens: 150, output_tokens: 20 },
+    });
+
+    await sohbetIstegiGonder({
+      sistemTalimati: "Sen bir asistansin.",
+      mesajlar: [
+        {
+          rol: "user",
+          icerik: "",
+          gorseller: [{ mediaType: "image/jpeg", data: "aGVsbG8=" }],
+        },
+      ],
+    });
+
+    const gonderilenIstek = createMock.mock.calls[0][0];
+    expect(gonderilenIstek.messages[0]).toEqual({
+      role: "user",
+      content: [
+        { type: "image", source: { type: "base64", media_type: "image/jpeg", data: "aGVsbG8=" } },
+      ],
+    });
+  });
+
   it("gorsel olmayan mesaji hala duz metin olarak gonderir", async () => {
     createMock.mockResolvedValue({
       stop_reason: "end_turn",

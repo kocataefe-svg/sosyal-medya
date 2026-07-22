@@ -65,8 +65,14 @@ export async function sohbetIstegiGonder(params: {
       type: "image",
       source: { type: "base64", media_type: g.mediaType, data: g.data },
     }));
-    const metinBlogu: Anthropic.TextBlockParam = { type: "text", text: m.icerik };
-    return { role: m.rol, content: [...gorselBloklari, metinBlogu] };
+    // Boş metin bloğu Anthropic API'ye gönderilemez (400 döner) — sadece
+    // görselle, metinsiz gönderimde (arayüzde desteklenen bir yol) metin
+    // bloğu hiç eklenmemeli.
+    const bloklar: Array<Anthropic.ImageBlockParam | Anthropic.TextBlockParam> = [...gorselBloklari];
+    if (m.icerik) {
+      bloklar.push({ type: "text", text: m.icerik });
+    }
+    return { role: m.rol, content: bloklar };
   });
 
   let toplamGirdiToken = 0;
