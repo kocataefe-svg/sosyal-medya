@@ -12,7 +12,7 @@ vi.mock("@octokit/rest", () => ({
   })),
 }));
 
-import { dosyaOku, dosyaYaz } from "./github";
+import { dosyaOku, dosyaYaz, dizinListele } from "./github";
 
 describe("github", () => {
   beforeEach(() => {
@@ -62,5 +62,31 @@ describe("github", () => {
     expect(createOrUpdateMock).toHaveBeenCalledWith(
       expect.objectContaining({ path: "planlar/mevcut-plan.md", sha: "eski-sha" })
     );
+  });
+
+  it("dizindeki .md dosyalarinin yollarini listeler", async () => {
+    getContentMock.mockResolvedValue({
+      data: [
+        { type: "file", name: "sahsi-instagram.md", path: "profiller/sahsi-instagram.md" },
+        { type: "file", name: "restoran-instagram.md", path: "profiller/restoran-instagram.md" },
+        { type: "file", name: "README.md.bak", path: "profiller/README.md.bak" },
+        { type: "dir", name: "alt-klasor", path: "profiller/alt-klasor" },
+      ],
+    });
+
+    const yollar = await dizinListele("profiller");
+
+    expect(yollar).toEqual([
+      "profiller/sahsi-instagram.md",
+      "profiller/restoran-instagram.md",
+    ]);
+  });
+
+  it("dizin yoksa bos dizi doner", async () => {
+    getContentMock.mockRejectedValue({ status: 404 });
+
+    const yollar = await dizinListele("profiller");
+
+    expect(yollar).toEqual([]);
   });
 });

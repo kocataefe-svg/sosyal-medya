@@ -55,3 +55,19 @@ export async function dosyaYaz(yol: string, icerik: string, commitMesaji: string
     sha: mevcutSha,
   });
 }
+
+export async function dizinListele(yol: string): Promise<string[]> {
+  const octokit = octokitOlustur();
+  const { owner, repo, branch } = depoBilgisi();
+  try {
+    const yanit = await octokit.repos.getContent({ owner, repo, path: yol, ref: branch });
+    const veri = yanit.data;
+    if (!Array.isArray(veri)) return [];
+    return veri
+      .filter((oge: any) => oge.type === "file" && oge.name.endsWith(".md"))
+      .map((oge: any) => oge.path as string);
+  } catch (hata: any) {
+    if (hata.status === 404) return [];
+    throw hata;
+  }
+}
