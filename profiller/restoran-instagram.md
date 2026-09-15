@@ -17,6 +17,7 @@
 ## Ton ve Tarz
 
 - **Ses tonu:** Karışım — hem sıcak/davetkâr hem şık. Otantik ve tarihi dokuyu vurgularken kaba/samimiyetsiz olmayan, "tarihin kalbinde bir lezzet durağı" hissi.
+- **İçerik dili:** İngilizce ağırlıklı — hedef kitle tamamen turist (rakip raporundaki başarılı hesapların (Deraliye, Matbah, Rumeli) hepsi İngilizce yazıyor). Bio, highlight isimleri, caption'lar İngilizce; gerekirse tek kelimelik Türkçe otantiklik dokunuşları (ör. "kebap") kalabilir ama ana dil İngilizce.
 - **Görsel tarz:** _(henüz netleşmedi — beğenilen hesapların estetiğinden (bkz. Rakipler/İlham) yakın çekim yemek + mekânın tarihi dokusu birleşimi önerilir; ilk içerik üretiminde birlikte netleştirilecek)_
 - **Yasaklar:** Yok — kullanıcı serbest çalışılabileceğini belirtti.
 
@@ -60,5 +61,24 @@ Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (s
 - **Pinned post:** Yok.
 - **NAME alanı:** "Fuego Restaurant&Cafe" — arama için "Sultanahmet" gibi bir konum anahtar kelimesi eklenmemiş.
 - **Profil fotoğrafı:** Mekan içi bir neon tabela görseli — küçük ikon boyutunda metin okunmuyor, net bir logo/yemek yakın çekimi daha iyi çalışır.
+
+## Onaylanan Profil Metinleri (2026-09-15 — kullanıcı onayladı, kullanıcı kendi telefonundan uygulayacak)
+
+- **NAME alanı:** `Fuego Sultanahmet Restaurant`
+- **Bio (94/150 karakter):**
+  ```
+  Mezze · Testi Kebab · Ali Nazik · İskender and more
+  4.7★ Google (1,300+ reviews)
+  Reserve below 👇
+  ```
+- **Website linki (ayrı alan, sadece mobilden düzenlenebiliyor):** `https://fuegosultanahmet.com/?lang=en#rezervasyon`
+- **Kategori:** Restaurant
+- **WhatsApp Business numarası:** Kullanıcı ekleyecek (varsa)
+- **Highlights planı (İngilizce, kapak görselleri sırada):**
+  1. Reviews — Google/Tripadvisor yorum ekran görüntüleri
+  2. Favorites — imza lezzetler
+  3. Our Place — iç mekan, tarihi doku
+  4. Nearby — Ayasofya/Sultanahmet Camii'ne yürüme mesafesi (rakiplerde yok, fark yaratma alanı)
+  5. *(opsiyonel)* Our Story — şef/işletme sahibi hikâyesi
 
 _(Aşağısı ekip buraya işledikçe dolacak: hangi içerik tipi tuttu, hangi saatler iyi, müşteri tepkileri, kullanıcı tercihleri.)_
