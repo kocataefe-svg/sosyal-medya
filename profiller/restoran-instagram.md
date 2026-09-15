@@ -30,7 +30,7 @@
 
 ## Üretim Kapasitesi
 
-- **Haftada gerçekçi içerik sayısı:** _(doldurulacak — ilk haftalık planla netleşecek)_
+- **Haftada gerçekçi içerik sayısı:** 3 gönderi (reels/carousel/post karışık) + mümkün olduğunca günlük story — 2026-09-21 haftalık planıyla netleşti, rakip analizindeki Matbah/Tarihi Köftecisi tempo aralığına (haftada 1,5-2,5) yakın gerçekçi bir başlangıç.
 - **Çekim imkânları:** İşletme sahibi kendisi çekim yapabiliyor; ayrıca Higgsfield destekli (AI) foto/video üretimiyle desteklenecek — özellikle yoğun/uygun olmayan saatlerde AI üretim devreye girecek.
 
 ## Rakipler
