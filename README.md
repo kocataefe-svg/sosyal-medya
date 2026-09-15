@@ -27,6 +27,7 @@ Komut olmadan da doğal dille her şey istenebilir: "restoran hesabı için bu h
 ## Yapı
 
 - `.claude/agents/` — 6 uzman ajan (direktör, Instagram, YouTube, trend, rakip, işletme görünürlüğü)
+- `.claude/skills/` — entegre edilmiş 9 Instagram skill'i (caption, carousel, hashtag, hook, plan, vb. — bkz. `.claude/skills/README.md`)
 - `profiller/` — hesap kimlikleri (ekibin hafızası; her iş buradan başlar)
 - `raporlar/` — analiz, trend ve rakip raporları
 - `planlar/` — haftalık içerik planları
