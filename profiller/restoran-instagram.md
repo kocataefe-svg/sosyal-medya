@@ -47,6 +47,18 @@
 
 > Not: Bu hesaplar İstanbul'un trend/şık restoran-bar sahnesinden — Fuego'nun turist odaklı, tarihi bölge konumlanışından farklı bir segmentte olabilirler. İçerik üretiminde tondan/estetikten ilham alınacak ama doğrudan kopya stratejisi izlenmeyecek.
 
-## Performans Notları
+## Profil Denetimi (2026-09-15, ig-profile-optimizer)
 
-_(Ekip buraya işledikçe dolar: hangi içerik tipi tuttu, hangi saatler iyi, müşteri tepkileri, kullanıcı tercihleri.)_
+Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (salt okunur, hiçbir değişiklik yapılmadı):
+
+- **En son paylaşım: 20 Kasım 2021** — hesap ~5 yıldır (87 gönderi birikmiş olsa da) tamamen sessiz. Bu, bio/highlight'tan çok daha kritik bir öncelik: profil ne kadar iyi optimize edilirse edilsin, grid'in en üstünde 5 yıllık bir paylaşım görmek ziyaretçiyi caydırır.
+- **Bio:** Sadece adres yazıyor ("Alemdar Mah. İncil Çavuş şok. No 15/A SULTANAHMET - İstanbul", 63/150 karakter) — değer önerisi, kanıt veya CTA yok.
+- **İnternet sitesi linki:** Boş. (Not: link alanı sadece mobil Instagram uygulamasından düzenlenebiliyor, masaüstünden değil.)
+- **Kategori etiketi:** "Kategori etiketini göster" açık ama hiçbir kategori seçilmemiş — etiket fiilen boş görünüyor.
+- **WhatsApp Business numarası:** Boş.
+- **Highlights (öne çıkanlar):** Hiç yok (0).
+- **Pinned post:** Yok.
+- **NAME alanı:** "Fuego Restaurant&Cafe" — arama için "Sultanahmet" gibi bir konum anahtar kelimesi eklenmemiş.
+- **Profil fotoğrafı:** Mekan içi bir neon tabela görseli — küçük ikon boyutunda metin okunmuyor, net bir logo/yemek yakın çekimi daha iyi çalışır.
+
+_(Aşağısı ekip buraya işledikçe dolacak: hangi içerik tipi tuttu, hangi saatler iyi, müşteri tepkileri, kullanıcı tercihleri.)_
