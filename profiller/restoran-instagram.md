@@ -32,6 +32,7 @@
 
 - **Haftada gerçekçi içerik sayısı:** _(doldurulacak — ilk haftalık planla netleşecek)_
 - **Çekim imkânları:** İşletme sahibi kendisi çekim yapabiliyor; ayrıca Higgsfield destekli (AI) foto/video üretimiyle desteklenecek — özellikle yoğun/uygun olmayan saatlerde AI üretim devreye girecek.
+- **AI üretim modeli (2026-09-16 karar):** Henüz Higgsfield aboneliği yok. Ekip (Claude), üretim gereken her seferinde MCP üzerinden otomatik üretim YAPMAZ — bunun yerine detaylı bir üretim promptu (konsept, kompozisyon, ışık, stil, önerilen model: Nano Banana / Seedream / Kling vb., format/oran) hazırlar ve kullanıcıya teslim eder. Kullanıcı bu promptu higgsfield.ai üzerindeki kendi ücretsiz hesabıyla çalıştırır, çıktıyı indirip ilgili `icerikler/` alt klasörüne kendisi koyar. Ücretsiz hesabın üretim/model kısıtları haftalık içerik hedefini zorlarsa, Plus abonelik ($49/ay veya $39/ay yıllık, 1000 kredi/ay) tekrar değerlendirilecek.
 
 ## Rakipler
 
