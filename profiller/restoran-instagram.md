@@ -30,8 +30,8 @@
 
 ## Üretim Kapasitesi
 
-- **Haftada gerçekçi içerik sayısı:** _(doldurulacak — ilk haftalık planla netleşecek)_
-- **Çekim imkânları:** İşletme sahibi kendisi çekim yapabiliyor; ayrıca Higgsfield destekli (AI) foto/video üretimiyle desteklenecek — özellikle yoğun/uygun olmayan saatlerde AI üretim devreye girecek.
+- **Haftada gerçekçi içerik sayısı:** Toplam 3-4 parça/hafta (post+reels+story dahil) — 2026-09-18'de kullanıcıyla netleşti.
+- **Çekim imkânları:** İşletme sahibi haftada 3-4 kez kendi çekim yapabiliyor (telefonla, mekanda); ayrıca Higgsfield destekli (AI) foto/video üretimiyle desteklenecek — özellikle yoğun/uygun olmayan saatlerde veya çekim yapılamayan haftalarda AI devreye girecek.
 
 ## Rakipler
 
