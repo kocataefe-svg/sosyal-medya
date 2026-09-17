@@ -28,6 +28,7 @@ Her iş, **hangi hesap için** yapıldığını netleştirmekle başlar. `profil
 | `trend-analisti` | Güncel akımlar, viral format ve sesler (web araması) |
 | `rakip-analisti` | Benzer hesap inceleme ve kıyaslama |
 | `isletme-gorunurluk-uzmani` | Google Business Profile, yorumlar, yerel SEO |
+| `higgsfield-uzmani` | AI görsel/video üretimi (Higgsfield); mevcut foto/videoyu değerlendirme, sinematik video promptu |
 
 Basit tek-platform işlerde ilgili uzmanın perspektifiyle doğrudan çalış; ajan başlatmak şart değil. Çok platformlu veya çok adımlı işlerde direktör üzerinden uzmanlara dağıt.
 
