@@ -77,6 +77,10 @@ Hesap ~5 yıldır sessiz (son paylaşım 20 Kasım 2021). Bu ilk haftanın asıl
 - Story anketi sonucu: hangi yemek öne çıkıyor → cuma reels'in konusu buna göre teyit/değiştirilebilir (plan esnek, story sonucu geldiğinde reels konusu revize edilebilir).
 - Rezervasyon linkine tıklama (varsa link-in-bio analytics) — profil ziyareti artışıyla birlikte 3 haftalık trend izlenecek.
 
-## Sıradaki Karar (kullanıcı onayı bekliyor)
+## 3 Aylık Hedef (2026-09-18 onaylandı, profile işlendi)
 
-**3 aylık somut hedef** profilde hâlâ boş. Öneri: *"5 yıllık sessizliğin izini silmek — 3 ayda profilin 'aktif ve güvenilir' algısını oturtmak, organik +150-200 takipçi ve rezervasyon linkine tıklamada gözle görülür artış."* Onaylarsanız profile işlerim; farklı bir sayı/öncelik isterseniz söyleyin.
+1. **Takipçi:** +400-600 (taban +150-200, birkaç reels tutarsa gerçekçi hedef; tek reels patlarsa 1000+ mümkün ama kontrol edilemez)
+2. **Rezervasyon linki tıklaması:** Sıfıra yakın seviyeden düzenli, ölçülebilir bir akışa geçiş
+3. **Görünürlük:** En az 3 reels'in reach'i takipçi sayısının üzerine çıksın
+
+Detay: `profiller/restoran-instagram.md` → "3 aylık sosyal medya hedefi".
