@@ -62,7 +62,9 @@ Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (s
 - **NAME alanı:** "Fuego Restaurant&Cafe" — arama için "Sultanahmet" gibi bir konum anahtar kelimesi eklenmemiş.
 - **Profil fotoğrafı:** Mekan içi bir neon tabela görseli — küçük ikon boyutunda metin okunmuyor, net bir logo/yemek yakın çekimi daha iyi çalışır.
 
-## Onaylanan Profil Metinleri (2026-09-15 — kullanıcı onayladı, kullanıcı kendi telefonundan uygulayacak)
+## Onaylanan Profil Metinleri (2026-09-15 onaylandı, 2026-09-17 UYGULANDI ✅)
+
+**Durum:** NAME, bio, website linki ve kategori kullanıcı tarafından telefondan uygulandı. **WhatsApp Business numarası henüz eklenmedi** (kullanıcı yarına bırakacağını söyledi, 2026-09-18 civarı hatırlatılabilir).
 
 - **NAME alanı:** `Fuego Sultanahmet Restaurant`
 - **Bio (94/150 karakter):**
@@ -73,7 +75,7 @@ Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (s
   ```
 - **Website linki (ayrı alan, sadece mobilden düzenlenebiliyor):** `https://fuegosultanahmet.com/?lang=en#rezervasyon`
 - **Kategori:** Restaurant
-- **WhatsApp Business numarası:** Kullanıcı ekleyecek (varsa)
+- **WhatsApp Business numarası:** Henüz eklenmedi — kullanıcı yarın (2026-09-18) ekleyecek
 - **Highlights planı (İngilizce, kapak görselleri sırada):**
   1. Reviews — Google/Tripadvisor yorum ekran görüntüleri
   2. Favorites — imza lezzetler
