@@ -48,6 +48,17 @@
 
 > Not: Bu hesaplar İstanbul'un trend/şık restoran-bar sahnesinden — Fuego'nun turist odaklı, tarihi bölge konumlanışından farklı bir segmentte olabilirler. İçerik üretiminde tondan/estetikten ilham alınacak ama doğrudan kopya stratejisi izlenmeyecek.
 
+### İlham Hesapları İnceleme Notları (2026-09-17, Chrome ile gerçek profiller incelendi)
+
+**Highlight kapak stratejisi — dünkü hatamızın düzeltmesi:** Hiçbiri Ottoman/dini motifli dekoratif illüstrasyon kullanmıyor. Kazanan formül (özellikle **316winebar.co**'da net): basit, evrensel, tek renkli çizgi ikon (megafon=duyuru, tokuşan kadehler=kutlama, şişe+kadeh=etkinlik) + **markanın kendi logo renginde** dolgulu daire arka plan. **agata.istanbul** da aynı mantıkla (bordo zemin + kendi çizim tarzı ikonlar: menü, çatal-bıçak, şişe). **lokantalimu** farklı bir yol izliyor: gerçek fotoğraf + ince gradient çerçeve, bazı highlight'larda direkt marka logosu/wordmark'ı kullanıyor. **Sonuç: Fuego'nun highlight ikonları da (a) basit/evrensel ikon + kendi marka rengi (terracotta/kırmızı) İLE ya da (b) gerçek fotoğraf kırpma olmalı — ASLA jenerik "Osmanlı/tarihi İstanbul" illüstrasyonu değil.**
+
+**Grid/format kalıpları (tekrar eden, uyarlanabilir):**
+- **Metin-odaklı "poster" duyuru postları** (bargabriel, mathildas, agata, 316winebar) — etkinlik/haber grid'in önemli bir kısmını kaplıyor, fotoğraf gerektirmiyor. Fuego için: "we're back" / yeni menü / özel gün duyurusu gibi postlar yeni fotoğraf beklemeden bugün üretilebilir.
+- **Hikaye anlatan tipografi kartı** (lokantalimu'da net örnek): zarif serif fontla kısa bir kültürel/mutfak hikayesi anlatan, sade krem zeminli metin postu. Fuego'nun "2012'den beri Osmanlı mutfağı" veya "testi kebabının hikayesi" gibi anlatıları için birebir uygulanabilir bir format — yeni fotoğraf gerekmez.
+- **İnsan/şef odaklı samimi kareler** (arkestra: iki ortak gülümseyerek, bargabriel: barmen çalışırken) — kurumsal mesafeyi kırıyor, rakip raporundaki "şef/insan hikâyesi" önerisini doğruluyor.
+- **Bio'da anlık/operasyonel bilgi öne çıkarılıyor** (mathildas: "Closed for renovations until October"; 316: açılış saatleri net). Fuego'nun bio'sunda da güncel/pratik bilgi (saatler, rezervasyon) öncelikli kalmalı.
+- Çoğu hesap **onaylı (mavi tik)** ve bio'da 3. taraf kanıtı (Michelin, Gault&Millau) en üstte — rakip raporundaki bulguyla tutarlı.
+
 ## Profil Denetimi (2026-09-15, ig-profile-optimizer)
 
 Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (salt okunur, hiçbir değişiklik yapılmadı):
