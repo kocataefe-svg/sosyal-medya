@@ -26,7 +26,12 @@
 - **Mevcut takipçi sayısı:** 414 (2026-09-15 itibarıyla)
 - **Hedef müşteri:** Tamamen turist — yaş grubu fark etmiyor (her kesime hitap), ağırlıklı olarak İstanbul'a ortalama 3-5 günlüğüne gelen ziyaretçiler. Yerli/semt sakini hedeflenmiyor.
 - **İş hedefi:** (1) Rezervasyon artışı, (2) walk-in artışı, (3) konum ve isim bilinirliği — özellikle **yapay zeka destekli arama/asistanlarda ve internet aramalarında görünürlük** (AI arama motorları için ayrı bir görünürlük hedefi var, klasik SEO'nun ötesinde).
-- **3 aylık sosyal medya hedefi:** _(doldurulacak — takipçi/rezervasyon için somut bir sayı belirlenebilir, ilk haftalık planla birlikte konuşulacak)_
+- **3 aylık sosyal medya hedefi (2026-09-18 onaylandı):**
+  1. **Takipçi:** +400-600 (taban senaryo +150-200; birkaç reels'in makul reach yakalaması varsayımıyla gerçekçi hedef +400-600 — tek bir reels gerçekten patlarsa 1000+ mümkün ama kontrol edilemeyeceği için hedefe yazılmadı)
+  2. **Rezervasyon linki tıklaması:** Şu an sıfıra yakın (hesap 5 yıldır sessizdi) — 3 ayda düzenli, ölçülebilir bir tıklama akışı oluşması (link-in-bio analytics ile takip)
+  3. **Görünürlük:** En az 3 reels'in reach'i takipçi sayısının üzerine çıksın (keşfete düştüğünün göstergesi)
+
+  Not: Takipçi sayısı tek başına asıl hedef değil — asıl iş hedefi (yukarıda) rezervasyon/walk-in/görünürlük olduğu için 3'ü birlikte izlenecek, sadece takipçiye bakılmayacak.
 
 ## Üretim Kapasitesi
 
