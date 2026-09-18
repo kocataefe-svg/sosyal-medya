@@ -144,3 +144,16 @@ Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (s
   5. *(opsiyonel)* Our Story — şef/işletme sahibi hikâyesi
 
 _(Aşağısı ekip buraya işledikçe dolacak: hangi içerik tipi tuttu, hangi saatler iyi, müşteri tepkileri, kullanıcı tercihleri.)_
+
+## Performans Notları
+
+### Kullanıcı tercihi (2026-09-18): İçerik üretim akışı
+
+Kullanıcı ham görsel/video fikrini kendisi sağlıyor, ekip üstüne "hangi edit/trend uygun" araştırmasını yapıyor. Akış şöyle işleyecek:
+
+1. **Kullanıcı ham materyal/fikir verir** — ör. "bu yemek fotoğrafı" veya "girişten itibaren bir video çek" gibi bir çekim talimatı.
+2. **Ekip o spesifik görsele göre güncel trend/edit araştırması yapar** (ezberden değil, web araması ile — trend-analisti/instagram-uzmani) ve 2-3 somut fikir sunar.
+3. **İki üretim yolu ayrı tutulur, kullanıcı hangisini istediğini seçer:**
+   - **(a) Kullanıcı kendi editleyecek** → ekip net talimat/tarif verir (hangi araç, hangi ayar, hangi metin).
+   - **(b) Higgsfield ile üretilecek** → ekip uygun prompt'u (video için kamera/süre/aksiyon detaylı, foto için stil/renk/kompozisyon detaylı) yazar, onay sonrası higgsfield-uzmani üretimi çalıştırır.
+4. Video örneği: kullanıcı "girişten çek" derse, ekip o ham videoyu Higgsfield'e referans vererek sinematik bir video (kamera hareketi, süre, ton) promptu üretir — ham çekim doğrudan paylaşılmaz.
