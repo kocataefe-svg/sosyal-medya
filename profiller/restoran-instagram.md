@@ -64,6 +64,28 @@
 - **Bio'da anlık/operasyonel bilgi öne çıkarılıyor** (mathildas: "Closed for renovations until October"; 316: açılış saatleri net). Fuego'nun bio'sunda da güncel/pratik bilgi (saatler, rezervasyon) öncelikli kalmalı.
 - Çoğu hesap **onaylı (mavi tik)** ve bio'da 3. taraf kanıtı (Michelin, Gault&Millau) en üstte — rakip raporundaki bulguyla tutarlı.
 
+### Fotoğraf Edit Stili İncelemesi (2026-09-18, kullanıcının attığı ekran görüntüsü — mathildas.etiler carousel)
+
+İki gerçek kare incelendi (mathildas.etiler, "Mathilda's Picks Menu 2026" carousel'i). Bunlar poster/tipografi postu değil, **gerçek fotoğraf üzerine yapılan edit** — Fuego'nun peşinde olduğu tam olarak bu.
+
+**Gözlemlenen kalıp:**
+1. **Sığ alan derinliği (shallow DOF):** Tek tabak veya masa net, arka plan tamamen bulanık/krema gibi — telefonun standart geniş açı netliğinden çok farklı, portre modu veya yakın çekim lens hissi.
+2. **Sıcak/soğuk kontrast paleti:** Sıcak amber/ahşap arka plan + **soğuk yeşil masa yüzeyi** + nötr beyaz tabak — üç katmanlı, bilinçli renk dengesi (rastgele beyaz dengesi değil).
+3. **Düşük anahtarlı, moody ışık:** Karanlık/loş restoran ortam ışığı + mum/nokta ışık vurgusu; parlak/"aydınlık" değil, sinematik.
+4. **Kenar vinyeti:** Köşeler koyulaştırılmış, göz merkezdeki tabağa çekiliyor.
+5. **Negatif boşluk / minimal plating:** Tabak kareyi doldurmuyor, yemek etrafında bilinçli boşluk bırakılıyor (özellikle "Boneless Lamb Karski" karesinde).
+6. **Metin overlay tipografisi:** Kalın, condensed, tamamen büyük harf sans-serif başlık (yemek adı) + altında ince/açık ağırlıklı küçük harf aralıklı caps alt satır (malzeme listesi) — ikisi de beyaz, fotoğrafın en karanlık/sade bölgesine (genelde sol üst) yerleştirilmiş, ayrı bir tipografi kartı değil, doğrudan fotoğrafın üzerinde.
+
+**Fuego'ya uyarlama ("Fuego Edit Formülü"):**
+- Soğuk yeşil yerine **Fuego'nun kendi terracotta/kırmızı** tonunu soğuk/nötr karşıtı olarak kullan (masa örtüsü, aksesuar rengiyle zaten uyumlu).
+- Çekimleri **tek obje/tabağa odaklı, arka planı bulanıklaştırarak** yap (telefonda portre modu ile mümkün) — mevcut "rastgele geniş açı restoran fotoğrafı" yerine.
+- Post-prodükside: beyaz dengesini sıcak tarafa çek, gölgeleri hafif kıs (moody/düşük anahtar), kontrastı hafif artır, kenarlara vinyet ekle.
+- Kırpma/kompozisyonda tabağın etrafında boşluk bırak, kareyi doldurma.
+- Carousel'in ilk karesi marka/başlık kapak kartı (örn. "FUEGO'S TABLE — AUTUMN 2026"), sonraki kareler her biri tek yemek + kalın caps başlık + ince malzeme alt satırı overlay.
+- **Üretim yolu:** Ham fotoğraflar telefonla çekilecek (portre modu, sıcak ışıkta — gün batımı/akşam servisi); ardından Higgsfield ile bu renk tonlaması + vinyet + metin overlay AI-destekli tek bir "edit" adımında uygulanacak, böylece her post aynı tutarlı bakışı taşıyacak (bkz. higgsfield-uzmani).
+
+_(Bu doğrudan fotoğraf verisi — otomatik commit kuralına tabi profil dosyası güncellemesi.)_
+
 ## Profil Denetimi (2026-09-15, ig-profile-optimizer)
 
 Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (salt okunur, hiçbir değişiklik yapılmadı):
