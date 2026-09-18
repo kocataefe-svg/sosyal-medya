@@ -147,6 +147,19 @@ _(Aşağısı ekip buraya işledikçe dolacak: hangi içerik tipi tuttu, hangi s
 
 ## Performans Notları
 
+### Teknik ders (2026-09-18): Tek fotoğraftan video'da insan yüzü = yüksek risk, sonuç amatörce çıktı
+
+**Ne denendi:** Lobster platter fotoğrafını (garson kadrajda, yüzü görünür) Seedance 2.5 ile image-to-video yaptık. Prompt'ta garsona bilinçli "minimal doğal hareket" (hafif nefes, yavaş ara sıra göz kırpma) yazdık — donuk/mankene benzemesin diye.
+
+**Sonuç:** Amatörce çıktı — garson donuk ve yapay duruyor, göz kırpma "slow motion" ve ürkütücü/garip görünüyor. Kullanıcı geri bildirimi: "çok yapay duruyor".
+
+**Çıkarılan ders:** Tek bir sabit fotoğraftan gerçek bir insan yüzünü animasyonla "canlandırmaya" çalışmak (ne kadar "minimal/doğal" yazarsak yazalım) yüksek riskli — modelin o kişinin gerçek hareketine dair hiçbir referansı yok, taklit ettiği "doğallık" genelde tekinsiz vadi (uncanny valley) sonucu veriyor. Prompt kelimelerini inceltmek (ör. "subtle", "natural") bunu güvenilir şekilde çözmüyor — bu ikinci denemede de aynı sorun bekleniyor.
+
+**Bundan sonraki yaklaşım:** İnsan yüzü kadrajda olan fotoğrafları video'ya çevirmeye çalışmak yerine:
+1. **Yüzü kadraj dışı bırak / kırp** (ör. sadece tepsi/eller/yemek, garsonun yüzü kadraja girmesin) — model o zaman riskli bölgeyi animasyonlamak zorunda kalmaz.
+2. **Ya da insan içermeyen bir fotoğrafı video'ya çevir** (ör. sadece yemek/mekan/alev — daha önceki "boş masa" konsepti gibi).
+3. **Yüz içeren güçlü kareler statik post olarak kalsın** — lobster platter fotoğrafı zaten tek başına post olarak çok iyi çalıştı (bkz. `icerikler/.../2026-09-18-lobster-platter-post.md`), her güçlü fotoğrafı zorla videoya çevirmeye gerek yok.
+
 ### Kullanıcı tercihi (2026-09-18, güncellendi): İçerik üretim akışı
 
 **Düzeltme:** İlk kayıtta "kullanıcı ham materyal verir" denmişti — kullanıcı bunu **ekibin pasif beklemesi değil, ekibin başlatması** olarak netleştirdi. Akış:
