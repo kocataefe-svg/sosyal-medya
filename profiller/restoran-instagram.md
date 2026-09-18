@@ -86,6 +86,28 @@
 
 _(Bu doğrudan fotoğraf verisi — otomatik commit kuralına tabi profil dosyası güncellemesi.)_
 
+### İkinci Edit Ailesi: Meme/Şablon Formatı (2026-09-18, kullanıcının attığı ekran görüntüsü — marinara_srt Venn diyagramı + web araştırması)
+
+Yukarıdaki "sinematik renk edit"i (mathildas) tek yol değil — **marinara_srt** örneği tamamen farklı bir aile gösteriyor: gerçek bir yemek fotoğrafı, elle çizilmiş görünen doodle/şekil (kırmızı iç içe daire) + meme metniyle ("things I want" / "things I need") bir şablonun içine yerleştirilmiş. Renk tonlama değil, **mizahi/ilişkilendirilebilir grafik şablon** üzerine gerçek foto.
+
+Web araştırması (Eylül 2026) bunun tekil bir örnek değil, aktif bir trend olduğunu doğruluyor: restoran hesapları mizah/ilişkilendirilebilirlik formatlarıyla (relatable meme, "food swap" iki seçenek karşılaştırması, checklist/"you know you're at X when..." formatı) paylaşım yapıyor — kaynaklar: [Toast: Relatable Restaurant Memes](https://pos.toasttab.com/blog/on-the-line/best-restaurant-memes), [SocialBee: Trending Instagram Memes](https://socialbee.com/blog/trending-instagram-memes/), [Manychat 2026 Instagram Trends](https://manychat.com/blog/instagram-trends-for-creators-2026/).
+
+**İki ayrı edit ailesi, ikisi de geçerli, karıştırılmamalı:**
+
+| | Aile A — Sinematik edit (mathildas) | Aile B — Meme/şablon edit (marinara_srt) |
+|---|---|---|
+| Amaç | Şıklık, "premium" algı, kayıt (save) | Mizah, paylaşım (share), ilişkilendirilebilirlik |
+| Üretim aracı | Higgsfield (AI renk tonlama + vinyet + overlay) | Canva/PicsArt gibi basit şablon aracı — AI kredisi gerekmez |
+| Ton uyumu | Fuego'nun "şık/davetkâr" tarafına | Fuego'nun "samimi/turist dostu" tarafına — abartılmadan, markayı gülünçleştirmeden |
+
+**Fuego'ya uyarlanmış meme/şablon konsept fikirleri (marinara_srt'nin Venn diyagramını birebir kopyalamadan, mantığını uyarlayarak):**
+1. **"POV" formatı:** Gerçek bir yemek/mekan fotoğrafı üzerine üstte kalın metin — "POV: you walked 2 minutes from Hagia Sophia and found this" — Testi Kebab'ın kırılma anı gibi görsel güçlü bir kareyle.
+2. **Beklenti/gerçek karşılaştırması:** "What tourists expect in Sultanahmet vs. what's actually on the table at Fuego" iki yarım kare.
+3. **Venn diyagramı mantığı (marinara_srt'nin uyarlanmışı):** "Things tourists want" / "Things tourists need" iki dairesi ortada Fuego'nun imza yemeğinin (örn. Testi Kebab) fotoğrafıyla kesişiyor.
+4. **Checklist/"you know you're here when" formatı:** Sultanahmet'te olmanın küçük işaretleri (ezan sesi, Ayasofya manzarası, testi kebabın masada kırılması) — son madde Fuego'nun fotoğrafı.
+
+**Üretim yolu:** Bu aile Higgsfield gerektirmez — gerçek fotoğraf + Canva/Instagram'ın kendi metin-çizim araçlarıyla hızlıca yapılabilir, maliyeti düşük, haftalık kapasiteyi zorlamaz. Haftalık planda Aile A (premium) ve Aile B (meme) karışık kullanılabilir — hepsi aynı sinematik edit olursa monoton olur, hepsi meme olursa markayı hafifletir.
+
 ## Profil Denetimi (2026-09-15, ig-profile-optimizer)
 
 Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (salt okunur, hiçbir değişiklik yapılmadı):
