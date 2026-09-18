@@ -147,6 +147,26 @@ _(Aşağısı ekip buraya işledikçe dolacak: hangi içerik tipi tuttu, hangi s
 
 ## Performans Notları
 
+### Higgsfield video üretim protokolü (2026-09-18, güncellendi — ilk kayıt yanlıştı, düzeltildi)
+
+**Kullanıcı düzeltmesi:** İlk teknik derste "insan yüzünü hiç animasyonlama" sonucuna varılmıştı — kullanıcı bunun aşırı basitleştirme olduğunu belirtti: Higgsfield'in yüzlerce başarılı gerçek-yüzlü UGC video örneği var, sorun "yüz" değil, **kullanılan yöntemdi**.
+
+**Gerçek neden (workflow incelemesiyle bulundu):** Higgsfield'in profesyonel UGC pipeline'ları (`ugc-review-video`, `ugc-product-video` — `get_workflow_instructions` ile keşfedildi) tek fotoğrafı direkt video motoruna vermiyor:
+1. Önce `gpt_image_2` ile **storyboard** (8 ayrı poz/an, önceden görüntülenmiş kareler) oluşturuyorlar
+2. Her karede **zorunlu "de-slop" temizleme geçişi** (`seedream_v5_pro`) — yapay cilt/yüz bozulmasını bu aşamada düzeltiyorlar
+3. Video motoru (Seedance) bu **hazır/temiz kareler arasında** geçiş yapıyor, sıfırdan "doğal hareket uydurmuyor**
+4. **Kare-kare QA** — her klip kontrol ediliyor, sorunlu çıkarsa o klip düzeltilip tekrar deneniyor, ilk sonuç kör onaylanmıyor
+
+İlk denemedeki amatörce sonuç (donuk garson, slow-motion göz kırpma) bu yüzden çıktı — tek fotoğraf + basit prompt + kör onay, profesyonel pipeline'ın atladığı en kırılgan kısımdı.
+
+**Bundan sonraki üretim protokolü (her video isteğinde uygulanacak):**
+1. Önce **iş bir hazır Higgsfield workflow'una denk geliyor mu** diye `get_workflow_instructions` (argümansız = katalog) kontrol edilir — kendi promptumuzu uydurmadan önce.
+2. Kadrajda gerçek insan/yüz varsa ve tam profesyonel sonuç isteniyorsa, tek-kare direkt animasyon yerine **storyboard+temizleme+kare-kare kontrol** tekniği uygulanmalı (tam ağır workflow şart değil, teknik uyarlanabilir).
+3. Model adı asla hafızadan tahmin edilmez — `models_explore(recommend)` ile teyit edilir, maliyet `get_cost` ile önceden söylenir.
+4. Video indirilip kare kare kontrol edilemiyor (bu ortamdan CDN erişimi engelli) — kullanıcı izleyip geri bildirim verir, kör onay yapılmaz.
+
+**Kullanıcıdan video/prompt isteği için istenecek 3 şey:** (1) model adı (bilmiyorsa sorun değil, `models_explore` ile bulunur), (2) referans görsel(ler), (3) hedef/senaryo (sinematik/eğlenceli, süre, format, kısıtlar).
+
 ### Teknik ders (2026-09-18): Tek fotoğraftan video'da insan yüzü = yüksek risk, sonuç amatörce çıktı
 
 **Ne denendi:** Lobster platter fotoğrafını (garson kadrajda, yüzü görünür) Seedance 2.5 ile image-to-video yaptık. Prompt'ta garsona bilinçli "minimal doğal hareket" (hafif nefes, yavaş ara sıra göz kırpma) yazdık — donuk/mankene benzemesin diye.
