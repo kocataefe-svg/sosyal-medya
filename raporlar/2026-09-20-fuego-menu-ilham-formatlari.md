@@ -1,7 +1,9 @@
 # Fuego — Menü İçeriği İlham Analizi (26 Instagram referansı)
 
 **Tarih:** 2026-09-20 · **Hesap:** @fuegorestaurantcafe · **Kaynak:** Kullanıcının beğendiği 26 Instagram linki (Chrome ile açılıp tek tek incelendi)
-**Amaç:** Menüdeki yemekler için post/story formatlarını referanslardan çıkarıp Fuego'ya uyarlamak. Üretim talimatları: `icerikler/fuego-restaurant-instagram/menu-format-kutuphanesi.md`
+**Amaç:** Menüdeki yemekler için post/story formatlarını referanslardan çıkarıp Fuego'ya uyarlamak. Üretim talimatları: `icerikler/fuego-restaurant-instagram/uretim-kitabi.md`
+
+**Kod eşleşmesi:** Bu raporun format kodları (F1-F11) analiz içindir. Üretim kitabında bunlar şu kartlara dönüştü: F1 → Kart 1 ve 5, F2 → Kart 3 ve 4, F3 → Kart 2 ve 3, F4 → Kart 13, F5 → Kart 8, F6 → Kart 14, F7 → Kart 9, F8 → Kart 7, F9 → Kart 10 ve 11, F10 → Kart 12, F11 → Kart 6.
 
 ## İnceleme Sınırları (dürüst not)
 
@@ -60,4 +62,4 @@
 
 ## Sonraki Adım
 
-`icerikler/fuego-restaurant-instagram/menu-format-kutuphanesi.md` içindeki çekim listesi tamamlanınca (gerçek yemek fotoğrafları), ilk 1 örnek Higgsfield/Canva ile üretilip onaylanır. Onay alınmadan seri üretim yapılmaz.
+`icerikler/fuego-restaurant-instagram/uretim-kitabi.md` içindeki çekim listesi tamamlanınca (gerçek yemek fotoğrafları), ilk 1 örnek Higgsfield/Canva ile üretilip onaylanır. Onay alınmadan seri üretim yapılmaz.
