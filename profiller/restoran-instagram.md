@@ -20,6 +20,7 @@
 - **İçerik dili:** İngilizce ağırlıklı — hedef kitle tamamen turist (rakip raporundaki başarılı hesapların (Deraliye, Matbah, Rumeli) hepsi İngilizce yazıyor). Bio, highlight isimleri, caption'lar İngilizce; gerekirse tek kelimelik Türkçe otantiklik dokunuşları (ör. "kebap") kalabilir ama ana dil İngilizce.
 - **Görsel tarz:** _(henüz netleşmedi — beğenilen hesapların estetiğinden (bkz. Rakipler/İlham) yakın çekim yemek + mekânın tarihi dokusu birleşimi önerilir; ilk içerik üretiminde birlikte netleştirilecek)_
 - **Yasaklar:** Yok — kullanıcı serbest çalışılabileceğini belirtti.
+- **Marka kimliği (2026-09-23, kullanıcı logoyu paylaştı):** Logo = koyu bordo alev ikonu + "FUEGO" + çizgi + "RESTAURANT & CAFÉ" (kalın geometrik sans-serif). Ana renk bordo ≈ #7A2418, logo zemini kırık beyaz #F7F8F4. Dosyalar: `icerikler/restoran-instagram/marka/` (orijinal + şeffaf zeminli PNG). Video kapanış kartlarında bu logo kullanılır; standart iletişim satırları: Sultanahmet, İstanbul · @fuegorestaurantcafe · fuegosultanahmet.com.
 
 ## Kitle ve Hedefler
 
