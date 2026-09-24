@@ -80,7 +80,7 @@ Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (s
 
 ## Onaylanan Profil Metinleri (2026-09-15 onaylandı, 2026-09-17 UYGULANDI ✅)
 
-**Durum:** NAME, bio, website linki ve kategori kullanıcı tarafından telefondan uygulandı. **WhatsApp Business numarası henüz eklenmedi** (kullanıcı yarına bırakacağını söyledi, 2026-09-18 civarı hatırlatılabilir).
+**Durum:** Bio, website linki ve kategori kullanıcı tarafından telefondan uygulandı. **⚠️ 2026-09-24 canlı kontrol: NAME alanı hâlâ "Fuego Restaurant&Cafe" — uygulanmamış/geri dönmüş; link de `#rezervasyon` eki olmadan görünüyor.** Bio'ya kullanıcı kendisi "Ottoman-Turkish flavors in Sultanahmet since 2012" satırını eklemiş. **WhatsApp Business numarası henüz eklenmedi** (kullanıcı yarına bırakacağını söyledi, 2026-09-18 civarı hatırlatılabilir).
 
 - **NAME alanı:** `Fuego Sultanahmet Restaurant`
 - **Bio (94/150 karakter):**
@@ -100,3 +100,7 @@ Chrome üzerinden kullanıcının kendi oturumuyla profil ayarları incelendi (s
   5. *(opsiyonel)* Our Story — şef/işletme sahibi hikâyesi
 
 _(Aşağısı ekip buraya işledikçe dolacak: hangi içerik tipi tuttu, hangi saatler iyi, müşteri tepkileri, kullanıcı tercihleri.)_
+
+## Performans Notları
+
+- **2026-09-24 (ilk hafta, detay: `raporlar/2026-09-24-analiz-fuego.md`):** Hesap yeniden canlandı — 22 eski gönderi arşivlendi (87→65), 18 Eylül teras postu (33 beğeni/2 yorum), 23 Eylül testi kebabı reels'i (36 beğeni/4 yorum/4 repost), 1 story (53 görüntülenme). Takipçi sabit (413). Etkileşim şimdilik ağırlıklı tanıdık çevreden (Türkçe/emoji yorumlar), turist kitlesi henüz görünmüyor. **Kullanıcı tercihi:** Planlanan Higgsfield cinemagraph yerine gerçek "masada şov anı" çekimini (testi kırılışı) tercih etti — gerçek çekim + an formatı öncelikli tutulmalı. Yorumlar beğeniliyor ama yanıtlanmıyor.
