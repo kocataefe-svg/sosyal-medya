@@ -52,11 +52,22 @@ Mevcut 1 story'nin (dolu teras) üstüne:
 
 ---
 
-## BÖLÜM B — Haftanın Feed İçeriği (2 post)
+## BÖLÜM B — Haftanın Feed İçeriği (3 parça)
 
 Kapasite: haftada 3-4 parça (profil notunda sabit). Highlight işi bu haftanın ağırlığını taşıdığı için feed tarafında 2 post'a odaklanıyoruz.
 
-### B1) Çarşamba — Post: "Bad Reviews at Fuego" (Kart 9)
+**30 Eylül güncellemesi:** Çarşamba'ya hazır bir reel girdi (B0). "Bad Reviews" postu Cuma'ya kaydı; A1'deki gerçek yorumlar toplanınca yapılacak.
+
+### B0) Çarşamba 30 Eylül — Reel: "From space to your table"
+
+Dosya: `icerikler/fuego-restaurant-instagram/duzenlenmis/fuego-uzaydan-masaya-v3.mp4` (13 sn, 9:16). Google Earth Studio zoom'u (uzaydan Sultanahmet çatılarına) + Higgsfield seedance ile çatıdan sokağa inip "Hello, Istanbul" neon duvarlı masada biten geçiş + gerçek fotoğraf, "FUEGO · SULTANAHMET".
+
+- **Saat:** 19:00-20:00 (akşam yemeği kararı saati; hesabın saat verisi yok, tahmin).
+- **Kapak:** neon duvarlı son kare. **Ses:** Instagram'da trend bir travel/zoom sesi. **Konum:** Sultanahmet.
+- **Caption:** "From space to your table 🌍🔥 / Sultanahmet, steps from Hagia Sophia. / Reserve via link in bio."
+- **Not:** Google Earth filigranı videoda kalmalı (silinmez). Google Earth içeriğinin tanıtım amaçlı kullanımı kurallarına takılma riski kullanıcıya bildirildi, kullanıcı paylaşmayı seçti.
+
+### B1) Cuma (Çarşamba'dan kaydı) — Post: "Bad Reviews at Fuego" (Kart 9)
 
 A1'de topladığınız gerçek yorumlarla, ironik hook formatı. Tam üretim adımları: `uretim-kitabi.md` → **KART 9**. Kısaca: kırmızı el yazısı "BAD REVIEWS AT FUEGO" kapağı, içeride gerçek övgü-yorumlar ironik başlıklarla, son slaytta "4.7★ · 1,300+ reviews".
 
