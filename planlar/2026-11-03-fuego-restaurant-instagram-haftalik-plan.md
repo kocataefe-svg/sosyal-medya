@@ -14,11 +14,12 @@
 | Per 5 Kas | 10:00 | Story | S1 kedi + S2 "Where are you visiting from?" | Taslak hazır |
 | Cum 6 Kas | 10:00 | Carousel | "First time eating Turkish? Start here" — 8 yemek (Taslak 2) | Taslak hazır |
 | Cmt 7 Kas | 11:00 | Story | S3 hafif seçenek + S6 rezervasyon link sticker | Taslak hazır |
-| Paz 8 Kas | 11:00 | Carousel | "Meet the people behind the fire" (Taslak 3) | İsimler bekleniyor |
+| Paz 8 Kas | 11:00 | Post | "Hello Istanbul, which flag is yours?" (seri 2, Taslak 3) | Taslak hazır |
 | Pzt 9 Kas | — | — | Haftalık büyüme raporu + yeni plan | Planlandı |
 
 ## Bekleyen işler
 
 - **Bio linki** rezervasyon/WhatsApp'a yönlensin (insights analizinden, hâlâ açık).
 - **Yılbaşı akşam yemeği** duyurusu için konsept bu ayın ortasına kadar (trend raporu).
-- Efe'ye soruldu: ekip isimleri, ıstakoz tabağı menüde mi, köpek mekânın mı.
+- Istakoz tabağı (`IMG_6862`) menüde mi, teyit edilmedi; teyitsiz kullanılmıyor.
+- Mekân pet friendly: caption ve story'lerde "Pet friendly 🐾" vurgusu var.
