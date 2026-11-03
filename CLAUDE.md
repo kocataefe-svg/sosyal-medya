@@ -20,17 +20,48 @@ Her iş, **hangi hesap için** yapıldığını netleştirmekle başlar. `profil
 
 ## Ekip
 
+### Instagram Büyüme Ekibi (v2, 2026-11-03)
+
+Instagram'da tek hedef **hesabı büyütmek** (takipçi, takipçi dışı erişim, rezervasyon tıklaması). Ekip sorulmasını beklemez; düzenli hatırlatma ve öneri yapar (bkz. Proaktif Ritim).
+
+| Ajan | Rol |
+|------|-----|
+| `buyume-direktoru` | **Yönetici** — Instagram ekibinin başı; sabah brifingi, haftalık büyüme raporu, aylık hedef değerlendirmesi |
+| `icerik-takvimi-yoneticisi` | **Yönetici** — haftalık plan, kayma takibi ve dürtme, fotoğrafları takvime yerleştirme, özel gün hazırlığı |
+| `veri-analitik-yoneticisi` | **Yönetici** — Instagram API verisi, içerik performansı, Performans Notları |
+| `reels-uzmani` | Reels kancası, kurgu, ses, Trial Reels — keşif |
+| `carousel-gorsel-uzmani` | Carousel, tipografi kartları, grid, highlight kapakları — kaydedilen içerik |
+| `story-topluluk-uzmani` | Story ritmi, etkileşim araçları, yorum/DM yanıtları, UGC paylaşımı |
+| `caption-dil-uzmani` | İngilizce caption, hashtag, Instagram SEO, çok dilli erişim |
+| `trend-analisti` | Haftalık trend raporu + Salı/Cuma "şimdi yap" trend alarmı |
+| `rakip-analisti` | Rakip ve ilham hesap takibi |
+| `collab-ugc-uzmani` | Collab, food blogger/otel işbirlikleri, müşteri içeriği |
+| `higgsfield-uzmani` | Gelen foto/videoyu değerlendirme, AI görsel/video üretimi |
+| `instagram-uzmani` | Genel Instagram işleri ve şahsi hesap (uzmanlar yetmediğinde) |
+
+### Diğer platformlar
+
 | Ajan | Uzmanlık |
 |------|----------|
-| `sosyal-medya-direktoru` | Orkestratör — çok platformlu/karmaşık işleri uzmanlara dağıtır |
-| `instagram-uzmani` | Story, post, reels; caption + hashtag; hesap analizi |
+| `sosyal-medya-direktoru` | Çok platformlu işlerin orkestratörü |
 | `youtube-uzmani` | Shorts + uzun video; başlık/thumbnail/SEO |
-| `trend-analisti` | Güncel akımlar, viral format ve sesler (web araması) |
-| `rakip-analisti` | Benzer hesap inceleme ve kıyaslama |
 | `isletme-gorunurluk-uzmani` | Google Business Profile, yorumlar, yerel SEO |
-| `higgsfield-uzmani` | AI görsel/video üretimi (Higgsfield); mevcut foto/videoyu değerlendirme, sinematik video promptu |
 
-Basit tek-platform işlerde ilgili uzmanın perspektifiyle doğrudan çalış; ajan başlatmak şart değil. Çok platformlu veya çok adımlı işlerde direktör üzerinden uzmanlara dağıt.
+Basit tek konulu işlerde ilgili uzmanın perspektifiyle doğrudan çalış; ajan başlatmak şart değil. Çok adımlı Instagram işlerinde `buyume-direktoru`, çok platformlu işlerde `sosyal-medya-direktoru` üzerinden dağıt.
+
+### Proaktif Ritim (zamanlanmış görevlerle çalışır)
+
+- **Her gün sabah:** `/brifing` — bugün ne paylaşılacak, dünkü sonuç, yanıtsız yorum/DM, günün büyüme taktiği.
+- **Her gün akşam (sadece gerekirse):** planlanan paylaşım yapılmadıysa kısa hatırlatma.
+- **Pazartesi:** `/haftalik-buyume` — geçen hafta + bu haftanın planı ve 3 taktik.
+- **Salı ve Cuma:** trend alarmı — sadece Fuego'ya uyan bir fırsat varsa.
+- **Ayın ilk Pazartesi:** 3 aylık hedefe göre değerlendirme.
+
+Hatırlatmalar somut olmalı: her mesajda yapılacak tek bir iş, hazır metin ve saat. Söyleyecek bir şey yoksa sessiz kal.
+
+### Fotoğraf Gelince
+
+Kullanıcı fotoğraf/video gönderip "bununla ne yapabiliriz" dediğinde (ya da sadece fotoğrafı attığında) `/foto` akışını uygula: değerlendirme → 3 fikir → önerilen fikrin tam taslağı → takvime yerleştirme. Sormadan ilk adımı at; taslağı ve plan satırını hemen oluştur.
 
 ## Veri Erişimi
 
@@ -44,7 +75,7 @@ Basit tek-platform işlerde ilgili uzmanın perspektifiyle doğrudan çalış; a
   - Instagram profilinde sağ üstteki ☰ menü → **Insights / İstatistikler** (kişisel hesapta görünmezse önce ücretsiz "Professional Account"a geçmesi gerekir, ayarlardan 1 dakika).
   - İstenecek ekranlar: (a) genel özet (Overview: erişim, etkileşim, takipçi), (b) "Paylaştığın içerikler" — post bazlı erişim/etkileşim listesi, (c) "Takipçi" grafiği — büyüme + demografi, (d) işletme hesabında ayrıca "Profil etkinliği" — profil ziyaretleri, yön tarifi/telefon tıklamaları.
   - Google Business Profile için de benzer mantık geçerli: yorum/puan görünür veridir (Chrome ile bakılabilir), ama "arama görünürlüğü" istatistikleri sadece işletme sahibine gösterilir — o da ekran görüntüsü ister.
-  - Meta/Instagram Graph API bağlanırsa bu adım otomatikleşebilir ama şu an kapsam dışı (kullanıcı tercihi) — API kurulmadıkça ekran görüntüsü tek yol.
+  - **Instagram API artık kapsamda (2026-11-03, kullanıcı isteği):** `IG_ACCESS_TOKEN` ortam değişkeni ve `graph.instagram.com` ağ izni varsa `node scripts/instagram-veri.mjs` Insights verisini (reach, kaydetme, paylaşım, profil ziyareti, link tıklaması, takipçi demografisi) `veri/instagram/YYYY-AA-GG.json` olarak çeker — sadece okuma izni, hesapta işlem yok. Token yoksa veya istek engellenirse yukarıdaki ekran görüntüsü yoluna dön; asla rakam uydurma.
 - **Güncel bilgi:** Trend, algoritma değişikliği, format haberleri için her zaman web araması yap — ezberden güncel bilgi verme.
 - **Görsel/video üretimi:** Bağlı MCP araçları (Higgsfield vb.) kullanılır. Araç yoksa detaylı konsept + üretim promptu teslim et.
 
@@ -54,6 +85,8 @@ Basit tek-platform işlerde ilgili uzmanın perspektifiyle doğrudan çalış; a
 
 - `raporlar/` — analiz, trend, rakip raporları → `YYYY-AA-GG-konu.md`
 - `planlar/` — haftalık içerik planları → `YYYY-AA-GG-hesap-haftalik-plan.md`
+- `raporlar/brifingler/` — günlük brifingler; `raporlar/trend-alarmlari/` — trend alarmları
+- `veri/instagram/` — Instagram API'den çekilen günlük veri (JSON)
 - `icerikler/` — caption'lar, üretilen görsel/videolar → hesap adına göre alt klasör
 
 Geçmiş rapor ve planlar yeni işlerde bağlam olarak kullanılır (tekrarı önle, süreklilik sağla).
@@ -65,6 +98,7 @@ Aşağıdaki dosyalar oluşturulduğunda veya güncellendiğinde **onay beklenme
 - `profiller/` — yeni hesap eklendiğinde veya profil güncellendiğinde
 - `raporlar/` — yeni analiz/trend/rakip raporu oluşturulduğunda
 - `planlar/` — yeni haftalık plan oluşturulduğunda veya güncellendiğinde
+- `veri/` — yeni Instagram verisi çekildiğinde
 
 Her değişiklik kendi anlamlı commit mesajıyla (Türkçe, kısa) push edilir. `icerikler/` içeriği (caption, görsel, video) bu otomatik kurala dahil değil — kullanıcı paylaşımı kendi yapacağı için bu dosyalar için commit/push öncesi onay iste.
 
@@ -77,3 +111,6 @@ Her değişiklik kendi anlamlı commit mesajıyla (Türkçe, kısa) push edilir.
 - `/rakip [hesap-adı]` — rakip hesap inceleme
 - `/profil-ekle [@hesap] [tip]` — yeni hesap profili oluşturur
 - `/geri-bildirim [hesap] [ne oldu]` — paylaşılan içeriğin sonucunu Performans Notları'na işler
+- `/foto [hesap] [fotoğraf]` — fotoğraftan fikir + taslak + takvim
+- `/brifing [hesap]` — günlük sabah brifingi
+- `/haftalik-buyume [hesap]` — haftalık büyüme raporu ve plan
