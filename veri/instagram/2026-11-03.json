@@ -1,0 +1,29 @@
+{
+  "tarih": "2026-11-03",
+  "kaynak": "Chrome - instagram.com/accounts/insights (Efe'nin oturumu, salt okunur), son 30 gün",
+  "hesap": { "kullanici_adi": "fuegorestaurantcafe", "takipci": 421, "takip_edilen": 6, "gonderi_sayisi": 44 },
+  "son_30_gun": {
+    "goruntuleme": 1634,
+    "goruntuleme_takipci_orani": 0.607,
+    "goruntuleme_takipci_olmayan_orani": 0.393,
+    "goruntuleyen_hesap": 406,
+    "goruntuleme_icerik_turu": { "hikaye": 0.381, "reels": 0.338, "gonderi": 0.281 },
+    "etkilesim": 116,
+    "etkilesim_takipci_orani": 0.931,
+    "etkilesim_takipci_olmayan_orani": 0.069,
+    "etkilesimde_bulunan_hesap": 43,
+    "etkilesim_icerik_turu": { "hikaye": 0.509, "reels": 0.319, "gonderi": 0.172 },
+    "profil_ziyareti": 70,
+    "harici_baglanti_dokunma": 3,
+    "is_adresi_dokunma": 2
+  },
+  "en_cok_goruntulenen": [
+    { "tarih": "2026-10-29", "icerik": "Hello Istanbul, you're looking gorgeous today (gönderi)", "goruntuleme": 405, "etkilesimde_bulunan": 13 },
+    { "tarih": "2026-10-22", "icerik": "Gluten-free bread (gönderi)", "goruntuleme": 221, "etkilesimde_bulunan": 16 },
+    { "tarih": "2026-11-03", "icerik": "POV: you ordered the clay-pot kebab in Istanbul (reels)", "goruntuleme": 154, "etkilesimde_bulunan": 7 },
+    { "tarih": "2026-10-23", "icerik": "Mekân önü / kalabalık teras", "goruntuleme": 104, "etkilesimde_bulunan": 11 },
+    { "tarih": "2026-10-06", "icerik": "Masada misafirler", "goruntuleme": 82 }
+  ],
+  "takipci_aktif_saatler_pazartesi": { "00": 111, "03": 118, "06": 123, "09": 131, "12": 115, "15": 55, "18": 37, "21": 81 },
+  "eksik": "Takipçi ülke/şehir/yaş dağılımı web panelinde görünmüyor; telefondan Takipçiler ekranı gerekiyor."
+}
