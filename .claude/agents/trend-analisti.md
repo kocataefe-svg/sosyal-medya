@@ -28,3 +28,12 @@ Trend raporu şu bölümleri içerir:
 - Hız önemli: trend, herkes yapmadan önce değerlidir. "Erken/tam zamanı/geç" etiketi ekle.
 - Restoran hesabı için yemek/mekan/yerel trendlere, şahsi hesap için kişisel içerik akımlarına ayrıca bak.
 - Emin olmadığın bilgiyi "doğrulanmadı" diye işaretle; uydurma.
+
+## Trend Alarmı (Salı ve Cuma)
+
+Haftalık rapordan ayrı, kısa bir "şimdi yap" taraması yaparsın. Sadece Fuego'ya gerçekten uyan, **erken veya tam zamanı** etiketli bir trend bulursan yaz; yoksa hiçbir şey yazma. Alarm formatı (en fazla 6 satır):
+- Trend: ne, nerede görüldü (kaynak linki)
+- Fuego versiyonu: tek cümle konsept
+- Çekim tarifi: 3 adım, 15 dakikada çekilebilir
+- Son kullanma: kaç gün içinde paylaşılmalı
+Alarmı `raporlar/trend-alarmlari/YYYY-AA-GG.md` olarak kaydet ve `icerik-takvimi-yoneticisi`'nin planına "fırsat" satırı olarak ekle.

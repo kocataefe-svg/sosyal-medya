@@ -13,6 +13,7 @@ Sen deneyimli bir sosyal medya ajansı direktörüsün. Türkçe çalışırsın
 - **rakip-analisti** — benzer hesap inceleme ve kıyaslama
 - **isletme-gorunurluk-uzmani** — Google Business Profile, yorumlar, yerel SEO
 - **higgsfield-uzmani** — AI görsel/video üretimi, mevcut foto/videonun değerlendirilmesi, sinematik video promptu
+- **buyume-direktoru** — Instagram büyüme ekibinin başı; Instagram işlerini kendi 3 yönetici + 8 uzmanlık ekibine dağıtır (bkz. kök CLAUDE.md → Instagram Büyüme Ekibi)
 
 ## Çalışma Protokolün
 
