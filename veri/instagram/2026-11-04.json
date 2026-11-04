@@ -1,0 +1,109 @@
+{
+  "tarih": "2026-11-04",
+  "kaynak": "Efe'nin telefonundan Profesyonel pano ekran görüntüleri (9 adet, 14:48-14:50), son 7 gün (28 Eki - 3 Kas)",
+  "hesap": {
+    "kullanici_adi": "fuegorestaurantcafe",
+    "takipci": 425,
+    "net_takipci_7g": 2
+  },
+  "son_7_gun": {
+    "goruntuleme": 1265,
+    "goruntuleme_takipci": 404,
+    "goruntuleme_takipci_olmayan": 861,
+    "izleyici_hesap": 513,
+    "goruntuleme_icerik_turu": {
+      "reels": 904,
+      "hikaye": 188,
+      "gonderi": 173,
+      "canli": 0
+    },
+    "etkilesim_icerik_turu": {
+      "reels": 65,
+      "hikaye": 20,
+      "gonderi": 5,
+      "canli": 0
+    },
+    "profil_ziyareti": 38,
+    "bio_link_dokunma": 1,
+    "is_adresi_dokunma": 0,
+    "gunluk_goruntuleme_grafik": "28 Eki ~0, 29 Eki ~380 (Hello Istanbul / Dear diary), 30 Eki ~140, 31 Eki - 2 Kas ~10-60, 3 Kas ~590 (clay-pot reels)"
+  },
+  "icerikler_7g": [
+    {
+      "baslik": "We set your dinner on fire 🔥 (POV: you ordered the clay-pot kebab)",
+      "tur": "reels",
+      "yas": "1g",
+      "goruntuleme": 468,
+      "begeni": 34,
+      "yorum": 4,
+      "repost": 2,
+      "paylasim": 1
+    },
+    {
+      "baslik": "(başlıksız story, testi servisi)",
+      "tur": "hikaye",
+      "yas": "1g",
+      "goruntuleme": 61,
+      "begeni": 8,
+      "paylasim": 0,
+      "yanit": 0
+    },
+    {
+      "baslik": "Lamb Chops Casserole",
+      "tur": "hikaye",
+      "yas": "5g",
+      "goruntuleme": 60,
+      "begeni": 7,
+      "paylasim": 0
+    },
+    {
+      "baslik": "(başlıksız story, Dear diary)",
+      "tur": "hikaye",
+      "yas": "5g",
+      "goruntuleme": 50,
+      "begeni": 5,
+      "paylasim": 0
+    },
+    {
+      "baslik": "Dear diary, they set my dinner... (Hello Istanbul)",
+      "tur": "reels",
+      "yas": "5g",
+      "goruntuleme": 426,
+      "begeni": 14,
+      "yorum": 0,
+      "repost": 1,
+      "paylasim": 8
+    }
+  ],
+  "kitle": {
+    "cinsiyet": {
+      "kadin": 0.505,
+      "erkek": 0.495
+    },
+    "yas": {
+      "13-17": 0.003,
+      "18-24": 0.034,
+      "25-34": 0.174,
+      "35-44": 0.304,
+      "45-54": 0.27,
+      "55-64": 0.143,
+      "65+": 0.072
+    },
+    "ulke": {
+      "Türkiye": 0.52,
+      "Almanya": 0.043,
+      "ABD": 0.037,
+      "Rusya": 0.029,
+      "Brezilya": 0.021
+    },
+    "dil": {
+      "Türkçe": 0.528,
+      "İngilizce": 0.147,
+      "Arapça": 0.053,
+      "İspanyolca": 0.043,
+      "Rusça": 0.043
+    },
+    "aktif_saatler": "Pazar grafiği: 09'dan itibaren yükseliyor, 12-24 arası yüksek, zirve 21. En aktif saatler: Pazar 21-00, Pazartesi 21-00, Perşembe 21-00 (GMT+3)"
+  },
+  "not": "Şehir dağılımı ve diğer günlerin saat grafikleri gönderilmedi."
+}
