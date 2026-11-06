@@ -16,6 +16,7 @@
 | Per 5 Kas | 20:00 | Story | S1 kedi + S2 "Where are you visiting from?" | Taslak hazır |
 | Cum 6 Kas | 20:00 | Carousel | "First time eating Turkish? Start here" — 8 yemek (Taslak 2) | Taslak hazır |
 | Cmt 7 Kas | 20:00 | Story | S3 hafif seçenek + S6 rezervasyon link sticker | Taslak hazır |
+| Cmt 7 Kas | 20:00 | Reels | **Fırsat:** "Major cheat code in Istanbul" trend reels'i (`raporlar/trend-alarmlari/2026-11-06.md`, son tarih 13 Kas) | Taslak hazır |
 | Paz 8 Kas | 20:00 | Post | "Hello Istanbul, which flag is yours?" (seri 2, Taslak 3) | Taslak hazır |
 | Pzt 9 Kas | — | — | Haftalık büyüme raporu + yeni plan | Planlandı |
 
