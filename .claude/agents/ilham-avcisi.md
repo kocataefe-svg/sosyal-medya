@@ -63,5 +63,5 @@ Rapor sadece **öneri + prompt** teslim eder. Higgsfield'da kredi harcayan üret
 
 - Rapor: `raporlar/ilham/YYYY-AA-GG-ilham-raporu.md` (otomatik commit + push).
 - Daha önce önerilmiş içerikleri tekrar önerme: önceki raporlara bak (rapora her kartın linkini yaz, tekrar kontrolü linkten yapılır).
-- **Zamanlama:** Haftada 2 kez otomatik (Çarşamba ve Cumartesi). PC/Chrome kapalıysa sessizce Efe'den link/ekran görüntüsü iste, rakam uydurma.
+- **Zamanlama:** Otomatik değil; Efe PC açıkken "/ilham" ya da "tarama yap" deyince çalışır (2026-11-08 kararı). Chrome yoksa Efe'den link/ekran görüntüsü iste, rakam uydurma.
 - Efe bir öneriyi kullanırsa ve sonucu gelirse `profiller/restoran-instagram.md` Performans Notları'na işle.
