@@ -61,6 +61,9 @@ Sadece restoran/kafe hesapları. Efe yeni hesap verdikçe buraya eklenir.
 | Hesap | Neden takipte | Eklenme |
 |---|---|---|
 | @lokantalimu | Meze/kebap sunumu, ocakbaşı reels'leri; 17,7B takipçi | 2026-11-08 |
+| @deraliyeterrace | Sultanahmet, Osmanlı mutfağı; teras manzara reels'i 121B beğeni | 2026-11-08 |
+| @barbarosaistanbul | Sultanahmet komşusu, kebap; skeç reels'leri 500B+ | 2026-11-08 |
+| @boccabocca.syd | Dev yazı + loş akşam estetiği | 2026-11-08 |
 | @bargabriel.ist | Estetik/ton referansı | 2026-09-17 |
 | @mathildas.etiler | Estetik/ton referansı | 2026-09-17 |
 | @agata.istanbul | Estetik/ton referansı | 2026-09-17 |
