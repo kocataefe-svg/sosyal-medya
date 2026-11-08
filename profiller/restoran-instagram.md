@@ -54,6 +54,21 @@
 
 > Not: Bu hesaplar İstanbul'un trend/şık restoran-bar sahnesinden — Fuego'nun turist odaklı, tarihi bölge konumlanışından farklı bir segmentte olabilirler. İçerik üretiminde tondan/estetikten ilham alınacak ama doğrudan kopya stratejisi izlenmeyecek.
 
+### İlham Takip Listesi (ilham-avcisi ajanı tarar, `/ilham`)
+
+Sadece restoran/kafe hesapları. Efe yeni hesap verdikçe buraya eklenir.
+
+| Hesap | Neden takipte | Eklenme |
+|---|---|---|
+| @lokantalimu | Meze/kebap sunumu, ocakbaşı reels'leri; 17,7B takipçi | 2026-11-08 |
+| @bargabriel.ist | Estetik/ton referansı | 2026-09-17 |
+| @mathildas.etiler | Estetik/ton referansı | 2026-09-17 |
+| @agata.istanbul | Estetik/ton referansı | 2026-09-17 |
+| @316winebar.co | Estetik/ton referansı | 2026-09-17 |
+| @arkestra.ist | Estetik/ton referansı | 2026-09-17 |
+
+> Not: Bu listenin çoğu şık/trend segment. Fuego'nun turist + Osmanlı mutfağı konumuna daha yakın hesaplar (Sultanahmet, kebapçı, ocakbaşı, Türk mutfağı) Efe'den istenecek.
+
 ### İlham Hesapları İnceleme Notları (2026-09-17, Chrome ile gerçek profiller incelendi)
 
 **Highlight kapak stratejisi — dünkü hatamızın düzeltmesi:** Hiçbiri Ottoman/dini motifli dekoratif illüstrasyon kullanmıyor. Kazanan formül (özellikle **316winebar.co**'da net): basit, evrensel, tek renkli çizgi ikon (megafon=duyuru, tokuşan kadehler=kutlama, şişe+kadeh=etkinlik) + **markanın kendi logo renginde** dolgulu daire arka plan. **agata.istanbul** da aynı mantıkla (bordo zemin + kendi çizim tarzı ikonlar: menü, çatal-bıçak, şişe). **lokantalimu** farklı bir yol izliyor: gerçek fotoğraf + ince gradient çerçeve, bazı highlight'larda direkt marka logosu/wordmark'ı kullanıyor. **Sonuç: Fuego'nun highlight ikonları da (a) basit/evrensel ikon + kendi marka rengi (terracotta/kırmızı) İLE ya da (b) gerçek fotoğraf kırpma olmalı — ASLA jenerik "Osmanlı/tarihi İstanbul" illüstrasyonu değil.**
