@@ -15,7 +15,7 @@
 | Çar 11 Kas | gün içi | Story | S1 kedi + anket, S2 "Where are you visiting from?" | — | Taslak hazır |
 | Per 12 Kas | 20:00 | Reels | "Major cheat code in Istanbul" (son tarih 13 Kas) | Hello Istanbul serisi 3: neon duvar yerine `IMG_8214` sokak | Taslak hazır |
 | Cmt 14 Kas | 20:00 | Carousel | "First time eating Turkish? Start here" (Taslak 2) + "Comment MENU" çağrısı | Pastırmalı pide (`08`) + hellim tekli post, "vegetarian in Istanbul" | Taslak hazır |
-| Paz 15 Kas | 20:00 | Post/Reels | Yılbaşı akşam yemeği teaser'ı (Efe onaylarsa) | Hello Istanbul, which flag is yours? (8 Kas paylaşılmadıysa) | Konsept bekliyor |
+| Paz 15 Kas | 20:00 | Post/Reels | Yılbaşı akşam yemeği teaser'ı (Efe onaylarsa; konsept `raporlar/2026-11-13-yilbasi-konsepti.md`) | Hello Istanbul, which flag is yours? (8 Kas paylaşılmadıysa) | Konsept hazır, Efe'nin cevabı bekleniyor |
 | Pzt 16 Kas | — | — | Haftalık büyüme raporu + yeni plan | — | Planlandı |
 
 ## Bu haftanın ekip işleri
