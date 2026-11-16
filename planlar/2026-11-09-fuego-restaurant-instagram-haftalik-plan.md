@@ -11,11 +11,11 @@
 
 | Gün | Saat | Format | Konsept | Yedek (taslak zaten paylaşıldıysa) | Durum |
 |---|---|---|---|---|---|
-| Sal 10 Kas | 20:00 | Reels | "Real charcoal" — ocakbaşı (Taslak 1) | Story stoku S4 (ekmek) + S5 teaser | Taslak hazır |
-| Çar 11 Kas | gün içi | Story | S1 kedi + anket, S2 "Where are you visiting from?" | — | Taslak hazır |
-| Per 12 Kas | 20:00 | Reels | "Major cheat code in Istanbul" (son tarih 13 Kas) | Hello Istanbul serisi 3: neon duvar yerine `IMG_8214` sokak | Taslak hazır |
-| Cmt 14 Kas | 20:00 | Carousel | "First time eating Turkish? Start here" (Taslak 2) + "Comment MENU" çağrısı | Pastırmalı pide (`08`) + hellim tekli post, "vegetarian in Istanbul" | Taslak hazır |
-| Paz 15 Kas | 20:00 | Post/Reels | Yılbaşı akşam yemeği teaser'ı (Efe onaylarsa; konsept `raporlar/2026-11-13-yilbasi-konsepti.md`) | **Fırsat:** "Some bills are non-negotiable in Istanbul" trend reels'i (`raporlar/trend-alarmlari/2026-11-13.md`, son tarih 24 Kas) | Konsept hazır, Efe'nin cevabı bekleniyor |
+| Sal 10 Kas | 20:00 | Reels | "Real charcoal" — ocakbaşı (Taslak 1) | Story stoku S4 (ekmek) + S5 teaser | Paylaşılmadı (Efe teyidi, 16 Kas) |
+| Çar 11 Kas | gün içi | Story | S1 kedi + anket, S2 "Where are you visiting from?" | — | Paylaşılmadı (Efe teyidi, 16 Kas) |
+| Per 12 Kas | 20:00 | Reels | "Major cheat code in Istanbul" (son tarih 13 Kas) | Hello Istanbul serisi 3: neon duvar yerine `IMG_8214` sokak | Paylaşılmadı (Efe teyidi, 16 Kas) |
+| Cmt 14 Kas | 20:00 | Carousel | "First time eating Turkish? Start here" (Taslak 2) + "Comment MENU" çağrısı | Pastırmalı pide (`08`) + hellim tekli post, "vegetarian in Istanbul" | Paylaşılmadı (Efe teyidi, 16 Kas) |
+| Paz 15 Kas | 20:00 | Post/Reels | Yılbaşı akşam yemeği teaser'ı (Efe onaylarsa; konsept `raporlar/2026-11-13-yilbasi-konsepti.md`) | **Fırsat:** "Some bills are non-negotiable in Istanbul" trend reels'i (`raporlar/trend-alarmlari/2026-11-13.md`, son tarih 24 Kas) | Paylaşılmadı (Efe teyidi, 16 Kas) |
 | Pzt 16 Kas | — | — | Haftalık büyüme raporu + yeni plan | — | Planlandı |
 
 ## Bu haftanın ekip işleri

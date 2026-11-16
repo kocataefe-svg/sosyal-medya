@@ -13,12 +13,12 @@ Taze veri yok: IG_ACCESS_TOKEN tanımlı değil, Chrome bağlı değil, Efe'den 
 | | |
 |---|---|
 | Planlanan | 5 parça (Sal reels, Çar story seti, Per reels, Cmt carousel, Paz reels/teaser) |
-| Paylaşıldığı teyitli | 0 |
-| Teyitsiz | 10 Kas "Real charcoal" reels, 11 Kas story (kedi + soru kutusu), 12 Kas "Major cheat code" reels, 14 Kas "First time eating Turkish?" carousel, 15 Kas "Some bills are non-negotiable" reels |
+| Paylaşılan | 0 (Efe 16 Kas'ta teyit etti: 3 Kasım'dan beri hiç paylaşım yapılmadı) |
+| Paylaşılmayan | 10 Kas "Real charcoal" reels, 11 Kas story (kedi + soru kutusu), 12 Kas "Major cheat code" reels, 14 Kas "First time eating Turkish?" carousel, 15 Kas "Some bills are non-negotiable" reels |
 | Kaçan | "Major cheat code" trendi 13 Kasım'da bitti; paylaşılmadıysa artık kullanılmıyor |
 | Takipçi | Son bilinen 425 (3 Kasım). Sonrası bilinmiyor. |
 
-**Durum özeti:** 3 Kasım'dan bu yana 13 gündür teyitli paylaşım yok. Bu, planın değil teyit kanalının sorunu da olabilir: Efe paylaşmış ama yazmamış olabilir. Ekran görüntüsü gelene kadar bütün taslaklar "teyitsiz" sayılıyor ve yeni planda yedekleriyle tekrar yer alıyor.
+**Durum özeti (16 Kas güncellemesi):** Efe 3 Kasım'dan bu yana hiç paylaşım yapmadığını yazdı. Sebebi içerik kalitesi: arşivden çıkan taslakları basit buluyor, profesyonel ve çok dikkat çekici editler istiyor (gerçek bir reklam çekimi gibi mutfak, hazırlık, masaya geliş; tabak, masa ve ortam birebir Fuego). Kalan Higgsfield kredisiyle reels ve poster üretimi ayrı bir işte başladı (krediler 17 Kas civarı yenileniyor). Bu haftanın planı o üretimlere göre değişti.
 
 **Başlangıç noktası (28 Eki - 3 Kas):** 1.265 görüntüleme (%68 takipçi dışı), 513 hesaba erişim, 38 profil ziyareti, 1 bio link tıklaması, 425 takipçi.
 
@@ -27,6 +27,8 @@ Taze veri yok: IG_ACCESS_TOKEN tanımlı değil, Chrome bağlı değil, Efe'den 
 **3 aylık hedefe göre (bilgi notu):** Hedef +400-600 takipçi (18 Eylül - 18 Aralık). Son bilinen değer 425 ve haftalık +2 hızdaydı; bu hızla hedefe ulaşılamaz. Ayrıntılı değerlendirme 7 Aralık'ta, taze veriyle.
 
 ## Bu hafta (17-23 Kasım) — plan
+
+**16 Kas güncellemesi:** Aşağıdaki slotlar Higgsfield üretimleri hazır oldukça onlarla doldurulur; arşiv taslakları sadece yedek.
 
 Ayrıntı: `planlar/2026-11-16-fuego-restaurant-instagram-haftalik-plan.md`. Kapasite gerçekçi tutuldu: 4 ana parça + 1 story seti. En yoğun günler (Per, Paz) en güçlü parçalara verildi.
 
@@ -45,7 +47,7 @@ Ayrıntı: `planlar/2026-11-16-fuego-restaurant-instagram-haftalik-plan.md`. Kap
 
 ## Sorular (tek kelimelik)
 
-1. Son 2 haftada kaç paylaşım yaptın? (sayı)
+1. ~~Son 2 haftada kaç paylaşım yaptın?~~ Cevap: 0 (16 Kas).
 2. Yılbaşı akşam yemeği olacak mı? (evet/hayır)
 
 ## Veri isteği
