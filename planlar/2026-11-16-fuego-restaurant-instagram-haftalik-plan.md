@@ -11,10 +11,10 @@
 
 | Gün | Saat | Format | Konsept | Yedek (taslak zaten paylaşıldıysa) | Durum |
 |---|---|---|---|---|---|
-| Sal 17 Kas | 20:00 | Reels | Higgsfield reels #1 (ilk hazır olan) | "Real charcoal" — ocakbaşı (Taslak 1) | Higgsfield üretimi bekleniyor |
+| Sal 17 Kas | 20:00 | Reels | Higgsfield 15 sn "ateşten masaya" filmi (hazır, Higgsfield hesabında; caption `raporlar/brifingler/2026-11-17.md`) | Higgsfield "Real Charcoal" posteri | Malzeme hazır, kurgu/logo Efe'nin "devam"ını bekliyor |
 | Çar 18 Kas | gün içi | Story | S1 kedi + anket ("Pet friendly 🐾"), S2 "Where are you visiting from?" | S3/S6 story stoku | Taslak hazır |
 | Per 19 Kas | 20:00 | Reels | Higgsfield reels #2 | "Some bills are non-negotiable in Istanbul" (son tarih 24 Kas) | Higgsfield üretimi bekleniyor |
-| Cmt 21 Kas | 20:00 | Poster/Carousel | Higgsfield posterleri (carousel ise son slayt "Save this for your Istanbul trip 📌" + "Comment MENU") | "First time eating Turkish? Start here" (Taslak 2) | Higgsfield üretimi bekleniyor |
+| Cmt 21 Kas | 20:00 | Poster/Carousel | Higgsfield posterleri (8 hazır: Born in Fire, Stretch the Night, Lift the Lid, Come Hungry, First Time Eating Turkish, Real Charcoal, Breakfast, New Year's Eve) (carousel ise son slayt "Save this for your Istanbul trip 📌" + "Comment MENU") | "First time eating Turkish? Start here" (Taslak 2) | Higgsfield üretimi bekleniyor |
 | Paz 22 Kas | 20:00 | Post/Reels | Yılbaşı akşam yemeği teaser'ı (Efe 4 soruyu cevaplarsa) | Taslak 3 "Hello Istanbul, which flag is yours?" (Perşembe kullanılmadıysa) | Efe'nin cevabı bekleniyor |
 | Pzt 23 Kas | — | — | Haftalık büyüme raporu + yeni plan | — | Planlandı |
 
