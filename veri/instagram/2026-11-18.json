@@ -1,0 +1,45 @@
+{
+  "tarih": "2026-11-18",
+  "kaynak": "Claude in Chrome, Efe'nin PC'si, instagram.com/accounts/insights/?timeframe=7 (salt okunur, 12:00 İstanbul)",
+  "donem": "Son 7 gün (yaklaşık 11-17 Kasım)",
+  "hesap": {
+    "kullanici_adi": "fuegorestaurantcafe",
+    "takipci": 430
+  },
+  "son_7_gun": {
+    "goruntuleme": 285,
+    "goruntuleme_takipci_orani": 0.632,
+    "goruntuleme_takipci_olmayan_orani": 0.368,
+    "izleyici_hesap": 92,
+    "goruntuleme_icerik_turu_orani": {
+      "hikaye": 0.419,
+      "gonderi": 0.331,
+      "reels": 0.25
+    },
+    "etkilesim": 21,
+    "etkilesim_takipci_orani": 1.0,
+    "etkilesimde_bulunan_hesap": 18,
+    "etkilesim_icerik_turu_orani": {
+      "hikaye": 0.81,
+      "reels": 0.19
+    },
+    "profil_hareketi": 14,
+    "profil_ziyareti": 13,
+    "harici_baglanti_dokunma": 1,
+    "en_cok_goruntulenen_icerik": "11 Kas hikayesi (sokak/turistler), 86 görüntüleme"
+  },
+  "takipci_en_aktif_saatler_web": {
+    "not": "3 saatlik dilimler, tarayıcı saat dilimi Europe/Istanbul. Telefondaki 4 Kasım verisiyle (en aktif 21:00-00:00) çelişiyor; plan saati 20:00 olarak kalıyor, telefon ekranıyla tekrar kontrol edilecek.",
+    "pazartesi": {"00": 114, "03": 124, "06": 128, "09": 137, "12": 109, "15": 50, "18": 43, "21": 90},
+    "persembe": {"00": 119, "03": 121, "06": 126, "09": 135, "12": 115, "15": 53, "18": 40, "21": 88},
+    "pazar": {"00": 106, "03": 123, "06": 129, "09": 139, "12": 111, "15": 52, "18": 38, "21": 86}
+  },
+  "karsilastirma_28eki_3kas": {
+    "goruntuleme": "1265 → 285 (-%77)",
+    "izleyici_hesap": "513 → 92",
+    "takipci_olmayan_orani": "%68 → %37",
+    "profil_ziyareti": "38 → 13",
+    "takipci": "425 → 430 (+5, iki haftada)",
+    "yorum": "3 Kasım'dan beri yeni reels/gönderi yok; erişim sadece hikayelerle takipçilere kaldı, keşif durdu."
+  }
+}
