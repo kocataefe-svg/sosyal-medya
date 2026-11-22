@@ -16,8 +16,8 @@
 | Sal 17 Kas | 20:00 | Reels | ~~Higgsfield 15 sn "ateşten masaya" filmi~~ (paylaşılmadı; Efe 17 Kas'ta Higgsfield sonuçlarını beğenmedi) (hazır, Higgsfield hesabında; caption `raporlar/brifingler/2026-11-17.md`) | Higgsfield "Real Charcoal" posteri | Malzeme hazır, kurgu/logo Efe'nin "devam"ını bekliyor |
 | Çar 18 Kas | gün içi | Story | S1 kedi + anket ("Pet friendly 🐾"), S2 "Where are you visiting from?" | S3/S6 story stoku | Taslak hazır |
 | Per 19 Kas | 20:00 | Reels | **Trend** "Dinner at Fuego, timestamped" (`raporlar/trend-alarmlari/2026-11-17.md`, son tarih ~28 Kas). 18 Kas güncellemesi: Higgsfield planları yerine Çarşamba akşamı servis sırasında telefonla çekilecek 6 gerçek klip | "Some bills are non-negotiable in Istanbul" (son tarih 24 Kas) | Higgsfield üretimi bekleniyor |
-| Cmt 21 Kas | 20:00 | Carousel | "First time eating Turkish? Start here" (Taslak 2, gerçek arşiv fotoğrafları) + son slayt "Save this for your Istanbul trip 📌" + "Comment MENU". 20 Kas güncellemesi: Higgsfield posterleri Efe onaylamadığı için ana içerikten çıktı | Pastırmalı pide (`08`) + hellim tekli post | Taslak hazır |
-| Paz 22 Kas | 20:00 | Post/Reels | Yılbaşı akşam yemeği teaser'ı (Efe 4 soruyu cevaplarsa) | Taslak 3 "Hello Istanbul, which flag is yours?" (Perşembe kullanılmadıysa) | Efe'nin cevabı bekleniyor |
+| Cmt 21 Kas | 20:00 | Carousel | "First time eating Turkish? Start here" (Taslak 2, gerçek arşiv fotoğrafları) + son slayt "Save this for your Istanbul trip 📌" + "Comment MENU". 20 Kas güncellemesi: Higgsfield posterleri Efe onaylamadığı için ana içerikten çıktı | Pastırmalı pide (`08`) + hellim tekli post | Taslak hazır; paylaşım teyitsiz (22 Kas, Efe'den haber yok) |
+| Paz 22 Kas | 20:00 | Post/Reels | Yılbaşı akşam yemeği teaser'ı (Efe 4 soruyu cevaplarsa) | Taslak 3 "Hello Istanbul, which flag is yours?" (Perşembe kullanılmadıysa) | Yılbaşı cevabı gelmedi; 22 Kas brifinginde Taslak 3 önerildi |
 | Pzt 23 Kas | — | — | Haftalık büyüme raporu + yeni plan | — | Planlandı |
 
 ## Bu haftanın ekip işleri
