@@ -1,0 +1,20 @@
+{
+  "kaynak": "Claude in Chrome, instagram.com/accounts/insights/?timeframe=7 + profil sayfası (salt okunur)",
+  "okuma_zamani": "2026-11-27T15:20Z",
+  "donem": "Son 7 gün (≈ 20-26 Kasım 2026)",
+  "hesap": "@fuegorestaurantcafe",
+  "goruntulemeler": 201,
+  "goruntuleme_takipci_yuzde": 2.5,
+  "goruntuleme_takipci_olmayan_yuzde": 97.5,
+  "goruntuleyenler": 8,
+  "icerik_turune_gore_yuzde": {"gonderiler": 66.5, "reels": 23.0, "hikayeler": 10.5},
+  "etkilesimler": 11,
+  "etkilesim_takipci_yuzde": 100,
+  "etkilesimde_bulunan_hesaplar": 12,
+  "etkilesim_degisim_yuzde": {"hikayeler": 109.1, "reels": -9.1},
+  "en_cok_etkilesim_alan": {"tur": "hikaye", "tarih": "2026-11-26", "not": "Mekân önünde iki kişi; ekranda 13"},
+  "profil_ziyaretleri": 14,
+  "takipci": 430,
+  "profil": {"gonderi_sayisi": 44, "en_yeni_gonderi_tarihi": "2026-11-03"},
+  "notlar": "3 Kasım'dan beri yeni gönderi/reels yok (profil grid'i). 26 Kas'ta en az bir hikaye paylaşılmış. Görüntüleyen sayısı (8) ve takipçi olmayan oranı ekranda göründüğü gibi yazıldı."
+}
