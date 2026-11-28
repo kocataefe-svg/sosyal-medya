@@ -35,6 +35,7 @@ Instagram'da tek hedef **hesabı büyütmek** (takipçi, takipçi dışı erişi
 | `caption-dil-uzmani` | İngilizce caption, hashtag, Instagram SEO, çok dilli erişim |
 | `trend-analisti` | Haftalık trend raporu + Salı/Cuma "şimdi yap" trend alarmı |
 | `rakip-analisti` | Rakip ve ilham hesap takibi |
+| `ilham-avcisi` | Restoran/kafe reels ve gönderilerinden Fuego'ya uyanları seçer, Higgsfield prompt'una çevirir (`/ilham`) |
 | `collab-ugc-uzmani` | Collab, food blogger/otel işbirlikleri, müşteri içeriği |
 | `higgsfield-uzmani` | Gelen foto/videoyu değerlendirme, AI görsel/video üretimi |
 | `instagram-uzmani` | Genel Instagram işleri ve şahsi hesap (uzmanlar yetmediğinde) |
@@ -85,6 +86,7 @@ Kullanıcı fotoğraf/video gönderip "bununla ne yapabiliriz" dediğinde (ya da
 
 - `raporlar/` — analiz, trend, rakip raporları → `YYYY-AA-GG-konu.md`
 - `planlar/` — haftalık içerik planları → `YYYY-AA-GG-hesap-haftalik-plan.md`
+- `raporlar/ilham/` — ilham raporları (restoran/kafe içeriği → Higgsfield prompt);
 - `raporlar/brifingler/` — günlük brifingler; `raporlar/trend-alarmlari/` — trend alarmları
 - `veri/instagram/` — Instagram API'den çekilen günlük veri (JSON)
 - `icerikler/` — caption'lar, üretilen görsel/videolar → hesap adına göre alt klasör
@@ -114,3 +116,4 @@ Her değişiklik kendi anlamlı commit mesajıyla (Türkçe, kısa) push edilir.
 - `/foto [hesap] [fotoğraf]` — fotoğraftan fikir + taslak + takvim
 - `/brifing [hesap]` — günlük sabah brifingi
 - `/haftalik-buyume [hesap]` — haftalık büyüme raporu ve plan
+- `/ilham [@hesap|link]` — restoran/kafe içeriklerinden Higgsfield prompt'u
